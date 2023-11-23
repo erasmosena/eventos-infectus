@@ -10,8 +10,18 @@
 </style>
 
 <div class="content" role="main" *ngIf="eventos">
-  <h1>Eventos de {{meses[mes]}}!</h1>
+  <h1>Eventos de  </h1>
+  <div class="form-row">
+    <div class="offset-4 col-4 ">
+      <select (change)="setPlan($event)" class="form-control form-control-lg">
+        <option *ngFor="let item of meses" [value]="item.codigo">{{item.descricao}}</option>
+      </select> 
+     
+    </div>
+  </div>
+  
   <div class="container">
+  
     <table>
       <thead>
         <tr>
@@ -22,11 +32,46 @@
       </thead>
       <tbody>
         <tr *ngFor="let semana of diasDoMes;  index as i ">
-          <td *ngFor="let item of semana; index as j" [class]="dataAtualFormatada==item?.data?'alert alert-info':''">
-            {{item?.data}}
-            <span *ngFor="let evento of obterEvento(item?.data)">
-              {{ evento.evento}}
+          <td *ngFor="let item of semana; index as j">
+
+
+
+            <div [class]="dataAtualFormatada==item?.data?'card mb-3 alert alert-info':'card mb-3 alert'"
+              style="max-width: 18rem;">
+              <div class="card-header">
+                <span>
+                  {{item?.data}}
+                </span>
+              </div>
+              <div class="card-body">
+
+                <div class="card row" *ngFor="let diaEvento of obterEvento(item?.data)">
+                  <div class="col-12">
+                    <div class="card-body row">
+                      <div class="col-8">
+                        <h5 class="card-title" [title]="diaEvento.evento.descricao">{{ diaEvento.evento.titulo}}</h5>
+                      </div>
+                      <div class="col-4">
+                        <img class="card-img-top img-fluid" [src]="diaEvento.evento.imagem" alt="Imagem evento" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <!-- <span  *ngFor="let evento of obterEvento(item?.data)">
+                  {{ evento.evento}}
+                </span> -->
+              </div>
+            </div>
+            <span>
+
             </span>
+
+
           </td>
         </tr>
       </tbody>
