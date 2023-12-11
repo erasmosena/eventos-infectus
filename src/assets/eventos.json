@@ -41,7 +41,7 @@
         }
     },
     {
-        "data": "08/12/2023",
+        "data": "01/12/2023",
         "evento": {
             "titulo": "Sexta Infectada",
             "descricao": "Um noite para encontrar os irmãos",
@@ -49,7 +49,16 @@
         }
     },
     {
-        "data": "22/12/2023",
+        "data": "15/12/2023",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+  ,
+    {
+        "data": "29/12/2023",
         "evento": {
             "titulo": "Sexta Infectada",
             "descricao": "Um noite para encontrar os irmãos",
