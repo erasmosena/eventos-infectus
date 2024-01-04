@@ -164,7 +164,81 @@
             "imagem": "/assets/caveira.png"
         }
     },
+
+
+
+   {
+        "data": "13/09/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+ {
+        "data": "27/09/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+
+
+
+
+  {
+        "data": "11/10/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+ {
+        "data": "25/10/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+
+
   
+  {
+        "data": "08/11/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+ {
+        "data": "22/11/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+
+  {
+        "data": "06/12/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
+ {
+        "data": "20/12/2024",
+        "evento": {
+            "titulo": "Sexta Infectada",
+            "descricao": "Um noite para encontrar os irmãos.",
+            "imagem": "/assets/caveira.png"
+        }
+    },
   
   
     {
