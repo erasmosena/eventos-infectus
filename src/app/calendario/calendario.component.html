@@ -1,6 +1,5 @@
-
-<p>Calendario!</p>
-<!-- <mwl-calendar-month-view
+<div class="container">
+ <mwl-calendar-month-view
  [viewDate]="viewDate"
  [events]="events"
  [locale]="locale"
@@ -9,24 +8,23 @@
     (dayClicked)="dayClicked($event.day)"
     (eventClicked)="handleEvent('Clicked', $event.event)"
     >
-</mwl-calendar-month-view> -->
-<!--
-<ng-template #customCellTemplate let-day="day" let-locale="locale">
+</mwl-calendar-month-view>
+</div>
+  <ng-template #customCellTemplate let-day="day" let-locale="locale">
       <div class="cal-cell-top">
-         <span class="cal-day-badge" *ngIf="day.badgeTotal > 0"
-          >{{ day|json}}</span
-        >
-        <span class="cal-day-number"
-          ></span
-        >
-        <span class="cal-day-badge" *ngIf="day.badgeTotal > 0">{{ day.badgeTotal }}</span>
-        <span class="cal-day-number"
-        >{{ day.date | calendarDate:'monthViewDayNumber':locale }}</span>
+        <div class="cal-cell-top">
+          <span class="cal-day-badge" *ngIf="day.badgeTotal > 0">{{ day.badgeTotal }}</span>
+          <span class="cal-day-number">{{ day.date | calendarDate:'monthViewDayNumber':locale }}</span>
+        </div>
+        <div class="cal-day-events">
+          <span class="cal-day-event" *ngFor="let event of day.events">
+            <img class="cal-day-icon " src="{{ event.imagem }}">
+          </span>
+        </div>
       </div>
-      <small style="margin: 5px">{{ day?.evento?.titulo}}</small
-      >
+      <small style="margin: 5px">{{ day?.evento?.titulo}}</small>
   </ng-template>
-  <img class="card-img-top img-fluid" [src]="day.evento.imagem" alt="Imagem evento" />
+<!--  <img class="card-img-top img-fluid" [src]="day.evento.imagem" alt="Imagem evento" />-->
   <ng-template #modalContent let-close="close">
     <div class="modal-header">
       <h5 class="modal-title">Event action occurred</h5>
@@ -49,4 +47,4 @@
         OK
       </button>
     </div>
-  </ng-template> -->
+  </ng-template>
