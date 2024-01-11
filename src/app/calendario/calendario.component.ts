@@ -33,8 +33,11 @@ import {
 })
 export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
 
+
+
   API_URL= environment.API_URL;
   view: CalendarView = CalendarView.Month;
+  CalendarView = CalendarView;
   viewDate: Date = new Date();
   locale: string = 'pt-BR';
   url: string = `${this.API_URL}/eventos.json`;
@@ -95,6 +98,14 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   handleEvent(action: string, event: CalendarEvent): void {
     this.modalData = { event, action };
     //this.modal.open(this.modalContent, { size: 'lg' });
+  }
+
+  setView(view: CalendarView) {
+    this.view = view;
+  }
+
+  closeOpenMonthViewDay() {
+    this.activeDayIsOpen = false;
   }
 
 }
