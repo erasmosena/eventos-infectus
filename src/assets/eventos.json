@@ -1,6 +1,14 @@
 
 [
   {
+    "data": "27/01/2024",
+    "evento": {
+      "titulo": "Camping",
+      "descricao": "Acampamento raiz ",
+      "imagem": "/assets/images/camping.jpeg"
+    }
+  },
+  {
     "data": "05/01/2024",
     "evento": {
       "titulo": "Sexta Infectada",
