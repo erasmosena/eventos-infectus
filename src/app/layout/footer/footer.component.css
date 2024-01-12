@@ -1,0 +1,71 @@
+
+footer {
+  background-color: white;
+  color: black;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer p {
+  width: 600px;
+  text-align: center;
+  margin: 0px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+footer .dev {
+  font-size: 1em;
+}
+
+footer > .dev > a {
+  color: black;
+}
+
+.imgrodape {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: end;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.logorodape {
+  width: 220px;
+  height: 300px;
+  background-color: white;
+  background-image: url(../../../assets/images/LOGODESKTOP.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgrodape2 {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: end;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.logorodape2 {
+  width: 220px;
+  height: 300px;
+  background-color: white;
+  background-image: url(../../../assets/images/LOGODESKTOP.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
