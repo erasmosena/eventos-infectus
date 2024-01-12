@@ -99,11 +99,11 @@
         </div>
         <div class="cal-day-events">
           <span class="cal-day-event" *ngFor="let event of day.events">
-            <img class="cal-day-icon " src="{{ event.imagem }}">
+            <img class="cal-day-icon " src="{{ event.imagem }}" data-toggle="tooltip" data-html="true" [title]="event.title+' ('+event.descricao+')'">
           </span>
         </div>
       </div>
-      <small style="margin: 5px">{{ day?.evento?.titulo}}</small>
+      <small style="margin: 5px" >{{ day?.evento?.titulo}}</small>
   </ng-template>
 <!--  <img class="card-img-top img-fluid" [src]="day.evento.imagem" alt="Imagem evento" />-->
   <ng-template #modalContent let-close="close">
