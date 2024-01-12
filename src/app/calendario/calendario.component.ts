@@ -41,7 +41,7 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   viewDate: Date = new Date();
   locale: string = 'pt-BR';
   url: string = `${this.API_URL}/eventos.json`;
-  urlImage: string =  `${this.API_URL}images/`;
+  urlImage: string =  `${this.API_URL}/images`;
   events: CalendarEvent[] = [];
   calendarEvents: any;
   activeDayIsOpen = false;
@@ -65,7 +65,7 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
           );
           console.log(this.calendarEvents[i].evento.titulo);
           this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
-          this.calendarEvents[i].imagem = `${this.urlImage}${this.calendarEvents[i].evento.imagem}`;
+          this.calendarEvents[i].imagem = `${this.urlImage}/${this.calendarEvents[i].evento.imagem}`;
         }
         this.events = this.calendarEvents;
       }
