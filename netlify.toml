@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "dist/sandbox"
+  publish = "dist/infectus-mc-site"
 [[redirects]]
   from = "/*"
   to = "/index.html"
