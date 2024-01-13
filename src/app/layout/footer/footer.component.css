@@ -11,11 +11,11 @@ footer {
 }
 
 footer p {
-  width: 600px;
+  width: 300px;
   text-align: center;
   margin: 0px;
   font-weight: bolder;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 footer .dev {
@@ -25,6 +25,10 @@ footer .dev {
 footer > .dev > a {
   color: black;
 }
+
+
+
+/*
 
 .imgrodape {
   background-color: rgb(255, 255, 255);
@@ -50,22 +54,22 @@ footer > .dev > a {
 
 .imgrodape2 {
   background-color: rgb(255, 255, 255);
-  width: 400px;
-  height: 400px;
+  width: 50px;
+  height: 50px;
   display: flex;
   position: absolute;
   top: end;
   right: 0;
   justify-content: center;
   align-items: center;
-}
+}*/
 
-.logorodape2 {
-  width: 220px;
-  height: 300px;
+/*.logorodape2 {
+  width: 50px;
+  height: 50px;
   background-color: white;
   background-image: url(../../../assets/images/LOGODESKTOP.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+}*/

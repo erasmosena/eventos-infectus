@@ -1,38 +1,288 @@
-
-#navigation {
-  display: none;
+#openMenu {
+  background-color: transparent;
+  color: white;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #menu {
-  background-color: transparent;
+  background-color: rgb(0, 0, 0);
+  color: white;
   padding: 0px;
   margin: auto;
-  height: 40px;
-  width: 90%;
-  position: fixed;
-  top: 15%;
-  left: 5%;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-
-  z-index: 99;
-  visibility: visible;
-  transition: none;
-
+  text-align: left;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  animation-duration: 0.5s;
 }
 
-#menu a {
-  background-color: transparent;
-  color: white;
-  padding: 10px 20px;
-  margin: 0px;
-  font-size: 1.5em;
-  text-decoration: none;
-  border-radius: 5px;
-}
 
-#menu a:hover {
-  background-color: rgb(46, 46, 46);
-}
+  @media screen and (min-width: 300px) and (max-width: 650px) {
+    @font-face {
+      font-family: 'ARMY RUST';
+      src:url('/assets/fonte/ARMY\ RUST.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    #openMenu {
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+
+      .slide-in {
+        animation-name: slideIn;
+      }
+
+      @keyframes slideOut {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .slide-out {
+        animation-name: slideOut;
+      }
+
+      #menu a {
+        background-color: transparent;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px;
+        font-size: 1.5em;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+
+      #mainTitle {
+        height: 50px;
+        position: fixed;
+        top: 0;
+        z-index: 60;
+      }
+
+      #mainTitle h1 {
+        font-size: 2.2em;
+        font-family: 'ARMY RUST';
+      }
+  }
+
+  @media screen and (max-width: 870px) {
+    @font-face {
+      font-family: 'ARMY RUST';
+      src:url('/assets/fonte/ARMY\ RUST.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    #openMenu {
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+
+      .slide-in {
+        animation-name: slideIn;
+      }
+
+      @keyframes slideOut {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .slide-out {
+        animation-name: slideOut;
+      }
+
+      #menu a {
+        background-color: transparent;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px;
+        font-size: 1.5em;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+
+      #mainTitle {
+        height: 50px;
+        position: fixed;
+        top: 0;
+        z-index: 60;
+      }
+
+      #mainTitle h1 {
+        font-size: 2.2em;
+        font-family: 'ARMY RUST';
+      }
+  }
+
+  @media screen and (min-width: 870px) and (max-width: 1000px) {
+    @font-face {
+      font-family: 'ARMY RUST';
+      src:url('/assets/fonte/ARMY\ RUST.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    #openMenu {
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+
+      .slide-in {
+        animation-name: slideIn;
+      }
+
+      @keyframes slideOut {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .slide-out {
+        animation-name: slideOut;
+      }
+
+      #menu a {
+        background-color: transparent;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px;
+        font-size: 1.5em;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+
+      #mainTitle {
+        height: 50px;
+        position: fixed;
+        top: 0;
+        z-index: 60;
+      }
+
+      #mainTitle h1 {
+        font-size: 2.2em;
+        font-family: 'ARMY RUST';
+      }
+  }
+
+  @media screen and (min-width: 1000px) {
+    @font-face {
+      font-family: 'ARMY RUST';
+      src:url('/assets/fonte/ARMY\ RUST.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+
+      .slide-in {
+        animation-name: slideIn;
+      }
+
+      @keyframes slideOut {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .slide-out {
+        animation-name: slideOut;
+      }
+
+      #menu a {
+        background-color: transparent;
+        color: white;
+        padding: 10px 20px;
+        margin: 0px;
+        font-size: 2em;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      #menu a:hover {
+        text-decoration: underline;
+      }
+
+
+      #mainTitle {
+        height: 90px;
+        position: fixed;
+        top: 0;
+        z-index: 60;
+      }
+
+      #mainTitle h1 {
+        font-size: 3em;
+        font-family: 'ARMY RUST';
+      }
+  }

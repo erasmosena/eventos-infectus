@@ -1,44 +1,49 @@
 
-.titulodiretores {
-  margin: 0px;
-  padding-top: 80px;
-  font-size: 2.3em;
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .titulodiretores {
+  margin-top: 70px;
+  text-align: center;
+  font-weight: border;
 }
 
-.containercomando {
-  background-color: rgb(0, 0, 0);
-  padding-top: 50px;
-  height: 550px;
-  background-image: url(../../assets/images/backgroundcomando.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  justify-content: flex-end;
-  align-items: end;
-  padding: 20px;
-}
-
-
-.childrenComando {
-  display: none;
-}
-
-.articlecomando {
-  width: 1300px;
-}
 
 #container {
   background-color: rgb(0, 0, 0);
-  flex-direction: row;
-  flex-wrap: wrap;
+  height: 1800px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
 
+.articlecomando {
+  width: 90%;
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+
+.childrenComando {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/images/LOGOCOMANDO.png
+  );
+  width: 320px;
+  height: 350px;
+  margin: auto;
+  margin-top: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .diretores {
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,40 +53,421 @@
 .diretores p {
   display: none;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .diretores:hover p {
   display: block;
+  cursor: pointer;
 }
 
-.textodiretores {
+
+#alessandro {
+  background-image: url(/assets/images/alessandro-p.png);
+}
+
+#alessandro:hover {
+  background-image: none;
+}
+
+
+#clecio {
+  background-image: url(/assets/images/clecio-vp.png);
+}
+
+#clecio:hover {
+  background-image: none;
+}
+
+
+#major {
+  background-image: url(/assets/images/major.png);
+}
+
+#major:hover {
+  background-image: none;
+}
+
+#vonne {
+  background-image: url(/assets/images/vonne.png);
+}
+
+#vonne:hover {
+  background-image: none;
+}
+
+#gabriel {
+  background-image: url(/assets/images/nathan.png);
+}
+
+#gabriel:hover {
+  background-image: none;
+}
+
+#ernande {
+  background-image: url(/assets/images/ERNANDE.jpg);
+}
+
+#ernande:hover {
+  background-image: none;
+}
+
+}
+
+@media screen and (max-width: 870px) {
+  .titulodiretores {
+  margin-top: 90px;
+  text-align: center;
+  font-weight: border;
+  background-color: black;
   color: white;
-  font-weight: bold;
-  width: 700px;
-  margin: auto;
-  line-height: 2.2em;
-  text-align: justify;
 }
 
-#containercomando {
-  background-color: rgb(3, 3, 3);
-  width: 80vw;
-  height: 600px;
+
+#container {
+  background-color: rgb(0, 0, 0);
+  height: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articlecomando {
+  width: 90%;
   margin: auto;
+  color: white;
+}
+
+.childrenComando {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/images/LOGOCOMANDO.png
+  );
+  width: 320px;
+  height: 350px;
+  margin: auto;
+  margin-top: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diretores {
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px;
 }
 
-.childrencomando{
-  width: 600px;
-  height: 600px;
+
+.diretores p {
+  display: none;
+  text-align: center;
+  font-size: 1.1em;
+  width: 80%;
+}
+
+.diretores:hover p {
+  display: block;
+  cursor: pointer;
+}
+
+
+#alessandro {
+  background-image: url(/assets/images/alessandro-p.png);
+}
+
+#alessandro:hover {
+  background-image: none;
+}
+
+
+#clecio {
+  background-image: url(/assets/images/clecio-vp.png);
+}
+
+#clecio:hover {
+  background-image: none;
+}
+
+
+#major {
+  background-image: url(/assets/images/major.png);
+}
+
+#major:hover {
+  background-image: none;
+}
+
+#vonne {
+  background-image: url(/assets/images/vonne.png);
+}
+
+#vonne:hover {
+  background-image: none;
+}
+
+#gabriel {
+  background-image: url(/assets/images/nathan.png);
+}
+
+#gabriel:hover {
+  background-image: none;
+}
+
+#ernande {
+  background-image: url(/assets/images/ERNANDE.jpg);
+}
+
+#ernande:hover {
+  background-image: none;
+}
+
+}
+
+@media screen and  (min-width: 870px) and (max-width: 1000px) {
+  .titulodiretores {
+  margin-top: 90px;
+  text-align: center;
+  font-weight: border;
   background-color: black;
-  background-image: url(../../assets/images/NSSF.png
+  color: white;
+}
+
+
+#container {
+  background-color: rgb(0, 0, 0);
+  width: 800px;
+  height: 1800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articlecomando {
+  width: 90%;
+  margin: auto;
+  color: white;
+  font-size: 1.2em;
+}
+
+.childrenComando {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/images/LOGOCOMANDO.png
   );
+  width: 320px;
+  height: 350px;
+  margin: auto;
+  margin-top: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diretores {
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.diretores p {
+  display: none;
+  text-align: center;
+  font-size: 1.1em;
+  width: 80%;
+}
+
+.diretores:hover p {
+  display: block;
+  cursor: pointer;
+}
+
+
+#alessandro {
+  background-image: url(/assets/images/alessandro-p.png);
+}
+
+#alessandro:hover {
+  background-image: none;
+}
+
+
+#clecio {
+  background-image: url(/assets/images/clecio-vp.png);
+}
+
+#clecio:hover {
+  background-image: none;
+}
+
+
+#major {
+  background-image: url(/assets/images/major.png);
+}
+
+#major:hover {
+  background-image: none;
+}
+
+#vonne {
+  background-image: url(/assets/images/vonne.png);
+}
+
+#vonne:hover {
+  background-image: none;
+}
+
+#gabriel {
+  background-image: url(/assets/images/nathan.png);
+}
+
+#gabriel:hover {
+  background-image: none;
+}
+
+#ernande {
+  background-image: url(/assets/images/ERNANDE.jpg);
+}
+
+#ernande:hover {
+  background-image: none;
+}
+
+}
+
+
+@media screen and  (min-width: 1000px) {
+  .titulodiretores {
+  margin-top: 90px;
+  text-align: center;
+  font-weight: border;
+  background-color: black;
+  color: white;
+}
+
+
+#container {
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  width: 1000px;
+  height: 1800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articlecomando {
+  width: 90%;
+  margin: auto;
+  color: white;
+  font-size: 1.2em;
+}
+
+.childrenComando {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/images/LOGOCOMANDO.png
+  );
+  width: 420px;
+  height: 450px;
+  margin: auto;
+  margin-top: 70px;
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diretores {
+  width: 380px;
+  height: 380px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.diretores p {
+  display: none;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.diretores:hover p {
+  display: block;
+  cursor: pointer;
+}
+
+
+#alessandro {
+  background-image: url(/assets/images/alessandro-p.png);
+}
+
+#alessandro:hover {
+  background-image: none;
+}
+
+
+#clecio {
+  background-image: url(/assets/images/clecio-vp.png);
+}
+
+#clecio:hover {
+  background-image: none;
+}
+
+
+#major {
+  background-image: url(/assets/images/major.png);
+}
+
+#major:hover {
+  background-image: none;
+}
+
+#vonne {
+  background-image: url(/assets/images/vonne.png);
+}
+
+#vonne:hover {
+  background-image: none;
+}
+
+#gabriel {
+  background-image: url(/assets/images/nathan.png);
+}
+
+#gabriel:hover {
+  background-image: none;
+}
+
+#ernande {
+  background-image: url(/assets/images/ERNANDE.jpg);
+}
+
+#ernande:hover {
+  background-image: none;
+}
+
 }
