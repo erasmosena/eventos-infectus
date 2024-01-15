@@ -21,7 +21,7 @@ export class MenuComponent implements OnInit {
       this.menuAnimation = 'slide-in';
       this.isMenuVisible = true;
     }
-
+   
   }
 
 

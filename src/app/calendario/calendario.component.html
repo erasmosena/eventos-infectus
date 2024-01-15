@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-
+  
     <div [ngSwitch]="view">
       <mwl-calendar-month-view
         *ngSwitchCase="CalendarView.Month"
@@ -71,7 +71,7 @@
         (eventClicked)="handleEvent('Clicked', $event.event)"
       >
       </mwl-calendar-month-view>
-
+  
       <mwl-calendar-week-view
         *ngSwitchCase="CalendarView.Week"
         [viewDate]="viewDate"
@@ -89,8 +89,8 @@
       >
       </mwl-calendar-day-view>
     </div>
-
-
+  
+  
   </div>
     <ng-template #customCellTemplate let-day="day" let-locale="locale">
         <div class="cal-cell-top">
