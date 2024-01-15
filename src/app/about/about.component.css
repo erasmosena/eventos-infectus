@@ -1,0 +1,138 @@
+    .citacao {
+        padding-bottom: 0px;
+        font-weight: bold;
+    }
+
+    .fotoprincipal {
+        background-color: rgb(255, 255, 255);
+        background-image: url(/assets/images/LOGO.png);
+        width: 300px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fotoprincipal1 {
+        background-color: white;
+        background-image: url(/assets/images/fotofundo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fotoprincipal2 {
+        background-color: white;
+        background-image: url(/assets/images/fotofundo3.png);
+        width: 600px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .imgpagina1 {
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #secao {
+        width: 100%;
+        background-color: white;
+    }
+
+    #secao h2 {
+        color: rgb(0, 0, 0);
+        font-size: 1.1em;
+        text-align: center;
+        margin-left: 10px;
+        line-height: 1.3em;
+        padding-top: 20px;
+        text-shadow: none;
+    }
+
+    #secao p {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        padding: 0px 20px 20px 20px;
+        text-indent: 20px;
+        margin-bottom: 0px;
+        line-height: 1.8em;
+        width: 70%;
+        margin: auto;
+    }
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+
+    .imgpagina1 {
+        height: 400px;
+    }
+
+    .fotoprincipal1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .fotoprincipal2 {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 870px) {
+
+    .imgpagina1 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .fotoprincipal1 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .fotoprincipal2 {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and  (min-width: 870px) and (max-width: 1000px) {
+
+    .imgpagina1 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .fotoprincipal1 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .fotoprincipal2 {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and  (min-width: 1000px) {
+
+    .imgpagina1 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .fotoprincipal1 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .fotoprincipal2 {
+        width: 600px;
+        height: 600px;
+    }
+}

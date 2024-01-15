@@ -1,10 +1,20 @@
-<menu id="menu" style="color: green;">
-    <a [routerLink]="['/home']">Home</a>
-   <a [routerLink]="['/diretoria']">Comando</a>
-    <a  [routerLink]="['/galeria']">Galeria</a>
-<!--   <a  [routerLink]="['/membros']">Seja Membro</a>-->
-   <a  [routerLink]="['/calendario']">Calendário</a>
-  <a href="https://www.instagram.com/infectusmc/" target="_blank">Instagram</a>
-   <a  [routerLink]="['/']">Playlist</a>
-   <a  [routerLink]="['/']">Canal</a>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<button (click)="toggleMenu()" id="openMenu" class="material-symbols-outlined btn">menu</button>
+
+<div id="mainTitle">
+    <a [routerLink]="['/home']" (click)="navegarParaHome()">
+        <h1>INFECTUS BRASIL</h1>
+    </a>
+</div>
+
+<menu id="menu" [ngClass]="menuAnimation"  *ngIf="isMenuVisible" style="color: green;">
+    <a [routerLink]="['/home']" (click)="toggleMenu()" (click)="navegarParaHome()">Home</a>
+    <a [routerLink]="['/diretoria']" (click)="toggleMenu()" (click)="navegarParaComando()">Comando</a>
+    <a [routerLink]="['/galeria']" (click)="toggleMenu()" (click)="navegarParaGaleria()">Galeria</a>
+    <!-- <a [routerLink]="['/membros']">Seja Membro</a> -->
+    <a [routerLink]="['/calendario']" (click)="toggleMenu()" (click)="navegarParaCalendario()">Calendário</a>
+    <a href="https://www.instagram.com/infectusmc/" target="_blank" (click)="toggleMenu()">Instagram</a>
+    <a [routerLink]="['/']" (click)="toggleMenu()">Playlist</a>
+    <a [routerLink]="['/']" (click)="toggleMenu()">Canal</a>
 </menu>

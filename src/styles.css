@@ -1,170 +1,75 @@
 @import "../node_modules/angular-calendar/css/angular-calendar.css";
 
+
 body {
-  background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);    
+    border-radius: 20px;       
+    border: 3px solid rgb(111, 111, 111);  
+  }
 
-body::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);        /* color of the tracking area */
-}
+  #mainArticle {
+    width: 100%;
+    margin-top: 70px;
+    background-color: black;
+  }
 
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rgb(111, 111, 111);  /* creates padding around scroll thumb */
-}
+  #mainArticle h2 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+  }
 
-main {
-  background-color: black;
-  padding-bottom: 250px;
-  padding-top: 250px;
+  #mainArticle p {
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 5px 20px 20px 20px;
+    line-height: 1.8em;
+    text-indent: 15px;
+    text-align: justify;
+  }
+  
 
-
-}
-
-
-.container {
-  background-color: rgb(0, 0, 0);
-  padding-top: 50px;
-  height: 550px;
-  background-image: url(./assets/images/backgroundhome.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  justify-content: flex-end;
-  align-items: end;
-  padding: 20px;
-}
-
-.children {
-  display: none;
-}
-
-
-article {
-  margin: auto;
-  width: 800px;
-}
-
-article h2 {
-  font-size: 2.3em;
-  margin-top: 35px;
-  padding: 50px 0px;
+header {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
 }
 
 
-article p {
-  text-indent: 25px;
-  padding: 20px 40px 90px 40px;
-  font-size: 1.3em;
-  text-align: justify;
-}
-
-
-.citacao {
-  padding-bottom: 0px;
-  font-weight: bold;
-}
-
-
-.imgpagina1 {
-  background-color: rgb(0, 0, 0);
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fotoprincipal {
-  background-color: rgb(0, 0, 0);
-  background-image: url(/assets/images/fotofundo.png);
-  width: 700px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.fotoprincipal1 {
-  background-color: rgb(0, 0, 0);
-  background-image: url(/assets/images/fotofundo2.jpg);
-  width: 700px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-
-}
-
-.fotoprincipal2 {
-  background-color: rgb(0, 0, 0);
-  background-image: url(/assets/images/fotofundo3.png);
-  width: 700px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-
-}
-
-section {
-  width: 800px;
-  height: 650px;
-  margin: auto;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  border-radius: 10px;
-}
-
-
-section h2 {
-  padding-top: 40px;
-  margin: 0px;
-  font-size: 2em;
-  color: rgb(0, 0, 0);
-  background-color: white;
-}
-
-
-section p {
-  text-indent: 25px;
-  padding: 40px 40px;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  font-size: 1.1em;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  text-align: justify;
-}
-
-
-
-.fotoprincipal3 {
-  height: 600px;
-  width: 600px;
-}
-
-.fotoprincipal4 {
-  width: 500px;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.sejamembro {
-  padding: 40px;
-}
-
-#articlemembros h2 {
-  padding-top: 0px;
-  padding-bottom: 70px;
-  font-size: 2.3em;
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'ARMY RUST';
+    text-align: center;
+    text-shadow: 5px 5px 8px black;
+    letter-spacing: 2px;
+    font-size: 11vw;
+    width: 100vw;
+    height: 50px;
+    padding-top: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }

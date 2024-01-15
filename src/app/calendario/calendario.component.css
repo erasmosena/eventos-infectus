@@ -3,3 +3,76 @@
   width: 30px;
   height: 30px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  #calendarContainer {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 870px) {
+  #calendarContainer {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {
+  #calendarContainer {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #calendarContainer {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    top: 70px;
+  }
+}
+

@@ -1,0 +1,379 @@
+    #articleOrigem {
+        padding-top: 100px;
+        margin: auto;
+        color: white;
+        background-color: black;
+    }
+
+    #articleOrigem h2 {
+        color: white;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    #articleOrigem p {
+        color: white;
+        text-align: justify;
+        text-indent: 25px;
+        padding: 30px;
+        line-height: 2em;
+    }
+
+    legend {
+        font-size: 0.9em;
+        margin: 10px;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .imagensArtigo {
+        margin: auto;
+        background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+    }
+
+    #primeiraMotocicleta {
+        background-image: url(/assets/images/primeiramotocicleta.jpg);
+    }
+
+    #primeirosEncontros {
+        background-image: url(/assets/images/primeirosEncontros.png);
+    }
+
+    #motoSegundaGuerra {
+        background-image: url(/assets/images/motossegundaguerra.jpg);
+    }
+
+    #motoSegundaGuerra2 {
+        background-image: url(/assets/images/motossegundaguerra.jpg);
+    }
+
+    #motociclistasHollister {
+    background-image: url(/assets/images/motociclistas-hollister.jpg);
+    }
+
+    #motoclubCampos {
+    background-image: url(/assets/images/primeiroMCBrasil.jpg);
+    }
+
+    .fotoClube {
+        background-image: url(/assets/images/LOGOCOMANDO.png);
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        margin-top: 100px;
+        width: 220px;
+        height: 350px;
+    }
+
+    address {
+        color: white;
+        text-align: center;
+    }
+
+    a {
+        color: white;
+    }
+
+    section {
+        margin: auto;
+        background-color: white;
+        color: black;
+    }
+
+    section h2 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-left: 10px;
+        line-height: 1.3em;
+        text-shadow: none;
+        font-size: 1.1em;
+    }
+
+    section p {
+        text-align: justify;
+        padding: 35px;
+        text-indent: 20px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+        line-height: 1.1em;
+        color: black;
+    }
+
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+        #articleOrigem {
+            width: 300px;
+        }
+        
+        #primeiraMotocicleta {
+    
+            width: 300px;
+            height: 210px;
+        }
+        
+        #primeirosEncontros {
+            width: 300px;
+            height: 130px;
+        }
+        
+        #motociclistaSegundaGuerra {
+            display: none;
+        }
+         
+         
+        #motoSegundaGuerra2 {
+            width: 300px;
+            height: 280px;
+            margin: auto;
+         }
+        
+        #motociclistasHollister {
+            width: 300px;
+            height: 300px;
+        }
+        
+        #motoclubCampos {
+            width: 300px;
+            height: 200px;
+        }
+        
+        
+        section {
+            margin-top: 80px;
+            padding-top: 20px;
+        }
+        
+    }
+  
+    @media screen and (min-width: 650px) and (max-width: 870px) {
+
+        #articleOrigem {
+            padding-top: 150px;
+            width: 500px;
+        }
+        
+        
+        #primeiraMotocicleta {
+            width: 400px;
+            height: 280px;
+        }
+        
+        #primeirosEncontros {
+            width: 500px;
+            height: 180px;
+        }
+        
+        #motoSegundaGuerra {
+           display: none;
+        }
+        
+        
+        #motoSegundaGuerra2 {
+            width: 450px;
+            height: 400px;
+            margin: auto;
+        }
+        
+        #motociclistasHollister {
+            width: 450px;
+            height: 450px;
+        }
+        
+        #motoclubCampos {
+            width: 500px;
+            height: 300px;
+        }
+        
+        
+        section {
+            width: 600px;
+            margin-top: 80px;
+            padding-top: 20px;
+        }
+        
+    }
+  
+@media screen and (min-width: 870px) and (max-width: 1000px) {
+
+     #articleOrigem {
+    padding-top: 220px;
+    }
+
+    .articleP {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    .articleP p {
+        font-size: 1.2em;
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        padding: 30px;
+        font-size: 1.3em;
+        line-height: 2.1em;
+        width: 700px;
+        margin-top: 100px;
+    }
+
+
+
+    #primeiraMotocicleta {
+        width: 360px;
+        height: 250px;
+        margin: 35px;
+    }
+
+    #primeirosEncontros {
+        width: 700px;
+        height: 270px;
+    }
+
+    #motoSegundaGuerra {
+        width: 370px;
+        height: 350px;
+        margin: 25px;
+    }
+
+    #motociclistaSegundaGuerra2 {
+        display: none;
+    }
+
+    #motociclistasHollister {
+        width: 450px;
+        height: 450px;
+        margin: 35px;
+    }
+
+    #motoclubCampos {
+        width: 650px;
+        height: 300px;
+        margin-top: 35px;
+    }
+
+    address {
+        margin-top: 100px;
+    }
+
+
+    section {
+        width: 800px;
+        height: 650px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        border-radius: 10px;
+        padding-top: 35px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        width: 450px;
+    }
+        }
+  
+@media screen and (min-width: 1000px) {
+
+    #articleOrigem {
+    padding-top: 220px;
+    }
+
+    .articleP {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    .articleP p {
+        font-size: 1.2em;
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        padding: 30px;
+        font-size: 1.3em;
+        line-height: 2.1em;
+        width: 700px;
+        margin-top: 100px;
+    }
+
+
+
+    #primeiraMotocicleta {
+        width: 360px;
+        height: 250px;
+        margin: 35px;
+    }
+
+    #primeirosEncontros {
+        width: 700px;
+        height: 270px;
+    }
+
+    #motoSegundaGuerra {
+        width: 370px;
+        height: 350px;
+        margin: 25px;
+    }
+
+    #motociclistaSegundaGuerra2 {
+        display: none;
+    }
+
+    #motociclistasHollister {
+        width: 450px;
+        height: 450px;
+        margin: 35px;
+    }
+
+    #motoclubCampos {
+        width: 650px;
+        height: 300px;
+        margin-top: 35px;
+    }
+
+    address {
+        margin-top: 100px;
+    }
+
+    section {
+        width: 800px;
+        height: 650px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        border-radius: 10px;
+        padding-top: 35px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        width: 450px;
+    }
+        
+}
+    

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-motorcycle-club',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MotorcycleClubComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navegarParaOrigem() {
+    this.router.navigate(['/origem']).then(() => {
+      window.scrollTo(0, 0);
+    });
   }
 
 }
