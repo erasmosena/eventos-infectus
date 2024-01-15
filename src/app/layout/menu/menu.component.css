@@ -1,6 +1,6 @@
   @font-face {
     font-family: 'ARMY RUST';
-    src:url('/assets/fonte/ARMY\ RUST.ttf') format('truetype');
+    src:url('/assets/fonts/ARMY\ RUST.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -94,18 +94,17 @@
     #menu a:hover {
       text-decoration: underline;
     }
-  
-  
+
+
     #mainTitle {
       height: 90px;
       position: fixed;
       top: 0;
       z-index: 60;
     }
-  
+
     #mainTitle h1 {
       font-size: 3em;
       font-family: 'ARMY RUST';
     }
 }
-  
