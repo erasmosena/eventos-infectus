@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<button (click)="toggleMenu()" id="openMenu" class="material-symbols-outlined btn">menu</button>
+<button (click)="toggleMenu()"  [ngClass]="{'menu-fechado' : !iconRotation && !firstLoad, 'menu-aberto':iconRotation}"  id="openMenu" class=" btn "></button>
 
 <div id="mainTitle">
     <a [routerLink]="['/home']" (click)="navegarParaHome()">
@@ -10,7 +10,7 @@
 
 <menu id="menu" [ngClass]="menuAnimation"  *ngIf="isMenuVisible" style="color: green;">
     <a [routerLink]="['/home']" (click)="toggleMenu()" (click)="navegarParaHome()">Home</a>
-    <a [routerLink]="['/diretoria']" (click)="toggleMenu()" (click)="navegarParaComando()">Comando</a>
+    <a [routerLink]="['/diretoria']" (click)="toggleMenu()" (click)="navegarParaComando()">Diretoria</a>
     <a [routerLink]="['/galeria']" (click)="toggleMenu()" (click)="navegarParaGaleria()">Galeria</a>
     <!-- <a [routerLink]="['/membros']">Seja Membro</a> -->
     <a [routerLink]="['/calendario']" (click)="toggleMenu()" (click)="navegarParaCalendario()">Calendário</a>

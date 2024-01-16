@@ -6,7 +6,7 @@
       <div class="col-md-4 mt-2">
         <div class="btn-group">
           <div
-            class="btn btn-dark"
+            class="btn btn-secondary"
             mwlCalendarPreviousView
             [view]="view"
             [(viewDate)]="viewDate"
@@ -14,13 +14,13 @@
             Anterior
           </div>
           <div
-            class="btn  btn-outline-secondary"
+            class="btn  btn-secondary "
             mwlCalendarToday
             [(viewDate)]="viewDate">
             Hoje
           </div>
           <div
-            class="btn btn-dark"
+            class="btn btn-secondary"
             mwlCalendarNextView
             [view]="view"
             [(viewDate)]="viewDate"
@@ -35,7 +35,7 @@
       <div class="col-md-4 mt-2">
         <div class="btn-group">
           <div
-            class="btn btn-dark"
+            class="btn btn-secondary"
             (click)="setView(CalendarView.Month)"
             [class.active]="view === CalendarView.Month"
           >
@@ -49,7 +49,7 @@
             Semana
           </div>
           <div
-            class="btn btn-dark"
+            class="btn btn-secondary"
             (click)="setView(CalendarView.Day)"
             [class.active]="view === CalendarView.Day"
           >
@@ -59,7 +59,7 @@
       </div>
     </div>
 
-    <div [ngSwitch]="view">
+    <div [ngSwitch]="view" class="pt-4">
       <mwl-calendar-month-view
         *ngSwitchCase="CalendarView.Month"
         [viewDate]="viewDate"

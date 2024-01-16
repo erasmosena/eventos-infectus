@@ -8,20 +8,29 @@ import { Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
+  iconRotation = false;
   isMenuVisible: boolean = false;
+  firstLoad: boolean = true;
   menuAnimation: string = '';
 
   toggleMenu() {
+    this.iconRotation = !this.iconRotation;
+    if( this.firstLoad){
+      this.firstLoad = false;
+    }
     if(this.isMenuVisible) {
        this.menuAnimation = 'slide-out'
        setTimeout(() => {
         this.isMenuVisible = false;
-      }, 200)
+      }, 300);
     }  else {
       this.menuAnimation = 'slide-in';
       this.isMenuVisible = true;
     }
-   
+
+
+
+
   }
 
 

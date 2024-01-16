@@ -17,14 +17,7 @@
     font-family: 'ARMY RUST';
   }
 
-  #openMenu {
-    background-color: transparent;
-    color: white;
-    z-index: 99;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+
 
   #menu {
     background-color: rgb(0, 0, 0);
@@ -51,33 +44,6 @@
     font-size: 1.5em;
     text-decoration: none;
     border-radius: 5px;
-  }
-
-  @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
-
-
-  .slide-in {
-    animation-name: slideIn;
-  }
-
-  @keyframes slideOut {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-
-  .slide-out {
-    animation-name: slideOut;
   }
 
 @media screen and (min-width: 1000px) {
@@ -108,3 +74,63 @@
       font-family: 'ARMY RUST';
     }
 }
+
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+  .slide-in {
+    animation: slideIn 2s;
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .slide-out {
+    animation: slideOut 2s;
+  }
+
+
+  #openMenu {
+
+    background-size:cover;
+    background-color: transparent;
+    color: white;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+
+    background-image:url('../../../assets/images/navigationfundo.png');
+  }
+  .menu-fechado {
+    animation: fechar 1s linear 0s;
+  }
+  .menu-aberto{
+    animation: abrir 1s linear 0s;
+  }
+
+  @keyframes fechar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+  }
+  @keyframes abrir {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+

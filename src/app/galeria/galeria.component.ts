@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GaleriaComponent implements OnInit {
 
-  constructor() { }
+  itensGaleria: any;
+  constructor() {
+    this.itensGaleria =  Array(35).fill(1).map((x, i) => i + 1);
+  }
 
   ngOnInit(): void {
   }
