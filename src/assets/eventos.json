@@ -8,6 +8,17 @@
       "imagem": "camping.jpeg"
     }
   },
+
+{
+    "data": "09/02/2024",
+    "evento": {
+      "titulo": "Lutas e Jogos",
+      "descricao": "Noite dedicada as práticas desportivas",
+      "imagem": "luvas.png"
+    }
+  },
+
+  
   {
     "data": "05/01/2024",
     "evento": {
