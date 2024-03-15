@@ -28,6 +28,14 @@
     }
   },
   {
+    "data": "25/07/2024",
+    "evento": {
+      "titulo": "Aniversário Machado",
+      "descricao": "Machado",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
     "data": "12/02/2024",
     "evento": {
       "titulo": "Aniversário Diesel",
