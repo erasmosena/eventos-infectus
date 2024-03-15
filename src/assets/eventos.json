@@ -19,7 +19,22 @@
       "imagem": "caveira.png"
     }
   },
-  
+    {
+    "data": "01/03/2024",
+    "evento": {
+      "titulo": "Aniversário Ernandes",
+      "descricao": "Ernandes",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
+    "data": "12/02/2024",
+    "evento": {
+      "titulo": "Aniversário Diesel",
+      "descricao": "Diesel",
+      "imagem": "aniversario.png"
+    }
+  },
   {
     "data": "21/03/2024",
     "evento": {
