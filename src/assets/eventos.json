@@ -270,6 +270,14 @@
     }
   },
   {
+    "data": "02/10/2024",
+    "evento": {
+      "titulo": "Aniversário Calabal",
+      "descricao": "Calabal",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
     "data": "18/07/2024",
     "evento": {
       "titulo": "Aniversário Carrasco",
