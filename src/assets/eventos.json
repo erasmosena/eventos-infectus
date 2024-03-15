@@ -247,6 +247,14 @@
     }
   },
   {
+    "data": "27/03/2024",
+    "evento": {
+      "titulo": "Aniversário Coruja",
+      "descricao": "Coruja",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
     "data": "18/07/2024",
     "evento": {
       "titulo": "Aniversário Carrasco",
