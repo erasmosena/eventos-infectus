@@ -360,16 +360,24 @@
   {
     "data": "05/07/2024",
     "evento": {
-      "titulo": "Aniversário Nathan",
-      "descricao": "Nathan",
+      "titulo": "Aniversário Clécio",
+      "descricao": "Clécio",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
+    "data": "06/07/2024",
+    "evento": {
+      "titulo": "Aniversário Jason",
+      "descricao": "Jason",
       "imagem": "aniversario.png"
     }
   },
   {
     "data": "10/09/2024",
     "evento": {
-      "titulo": "Aniversário Clécio",
-      "descricao": "Clécio",
+      "titulo": "Aniversário Nathan",
+      "descricao": "Nathan",
       "imagem": "aniversario.png"
     }
   },
