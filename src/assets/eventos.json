@@ -374,6 +374,14 @@
     }
   },
   {
+    "data": "29/07/2024",
+    "evento": {
+      "titulo": "Aniversário Peste",
+      "descricao": "Peste",
+      "imagem": "aniversario.png"
+    }
+  },
+  {
     "data": "10/09/2024",
     "evento": {
       "titulo": "Aniversário Nathan",
@@ -381,6 +389,7 @@
       "imagem": "aniversario.png"
     }
   },
+  
   {
     "data": "28/01/2024",
     "evento": {
@@ -454,22 +463,6 @@
     }
   },
   {
-    "data": "08/03/2024",
-    "evento": {
-      "titulo": "Aniversário Augusto",
-      "descricao": "Augusto",
-      "imagem": "aniversario.png"
-    }
-  },
-  {
-    "data": "19/05/2024",
-    "evento": {
-      "titulo": "Aniversário Pimentel",
-      "descricao": "Pimentel",
-      "imagem": "aniversario.png"
-    }
-  },
-  {
     "data": "30/09/2024",
     "evento": {
       "titulo": "Aniversário Moisés",
@@ -501,14 +494,7 @@
       "imagem": "aniversario.png"
     }
   },
-  {
-    "data": "19/11/2024",
-    "evento": {
-      "titulo": "Aniversário Edelvan",
-      "descricao": "Edelvan",
-      "imagem": "aniversario.png"
-    }
-  },
+
   {
     "data": "16/01/2024",
     "evento": {
@@ -589,7 +575,7 @@
   }
   ,
   {
-    "data": "13/08/2024",
+    "data": "12/08/2024",
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de agosto.",
@@ -597,7 +583,7 @@
     }
   },
   {
-    "data": "10/09/2024",
+    "data": "09/09/2024",
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de setembro.",
@@ -605,7 +591,7 @@
     }
   },
   {
-    "data": "08/10/2024",
+    "data": "14/10/2024",
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de outubro.",
@@ -613,7 +599,7 @@
     }
   },
   {
-    "data": "12/11/2024",
+    "data": "11/11/2024",
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de novembro.",
@@ -621,7 +607,7 @@
     }
   },
   {
-    "data": "10/12/2024",
+    "data": "09/12/2024",
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de dezembro.",
