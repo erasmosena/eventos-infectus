@@ -1127,8 +1127,8 @@
       "imagem": "caveira.png"
     }
   },
-  {
-    "data": "12/09/2025",
+    {
+    "data": "05/09/2025",
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
@@ -1136,7 +1136,15 @@
     }
   },
   {
-    "data": "26/09/2025",
+    "data": "19/09/2025",
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "caveira.png"
+    }
+  },
+  {
+    "data": "03/10/2025",
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
@@ -1190,6 +1198,6 @@
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "caveira.png"
     }
-  }
+  } 
   
 ]
