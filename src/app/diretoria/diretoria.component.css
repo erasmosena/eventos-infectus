@@ -1,7 +1,7 @@
   .titulodiretores {
     margin-top: 90px;
     text-align: center;
-    font-weight: border; 
+    font-weight: border;
     background-color: black;
     color: white;
   }
@@ -43,64 +43,73 @@
     font-size: 1.1em;
     width: 80%;
   }
-  
+
   .diretores:hover p {
     display: block;
     cursor: pointer;
   }
 
-  #alessandro {
-    background-image: url(/assets/images/alessandro-p.png);
+  .alessandro {
+    background-image: url(../../assets/images/diretoria/alessandro-p.png);
   }
-  
-  #alessandro:hover {
-    background-image: none;
-  }
-  
-  
-  #clecio {
-    background-image: url(/assets/images/clecio-vp.png);
-  }
-  
-  #clecio:hover {
-    background-image: none;
-  }
-  
-  
-  #major {
-    background-image: url(/assets/images/major.png);
-  }
-  
-  #major:hover {
-    background-image: none;
-  }
-  
-  #vonne {
-    background-image: url(/assets/images/vonne.png);
-  }
-  
-  #vonne:hover {
-    background-image: none;
-  }
-  
-  #gabriel {
-    background-image: url(/assets/images/nathan.png);
-  }
-  
-  #gabriel:hover {
-    background-image: none;
-  }
-  
-  #ernande {
-    background-image: url(/assets/images/ERNANDE.jpg);
-  }
-  
-  #ernande:hover {
+
+  .alessandro:hover {
     background-image: none;
   }
 
+
+  .clecio {
+    background-image: url(../../assets/images/diretoria/clecio-vp.png);
+  }
+
+  .clecio:hover {
+    background-image: none;
+  }
+
+
+  .major {
+    background-image: url(../../assets/images/diretoria/major.jpg);
+  }
+
+  .major:hover {
+    background-image: none;
+  }
+
+  .vonne {
+    background-image: url(../../assets/images/diretoria/vonne.png);
+  }
+
+  .vonne:hover {
+    background-image: none;
+  }
+
+  .nathan {
+    background-image: url(../../assets/images/diretoria/nathan.png);
+  }
+
+  .nathan:hover {
+    background-image: none;
+  }
+
+  .paranoia {
+    background-image: url(../../assets/images/diretoria/paranoia.jpeg);
+  }
+
+  .paranoia:hover {
+    background-image: none;
+  }
+
+  .urso {
+    background-image: url(../../assets/images/diretoria/urso.jpeg);
+  }
+
+  .urso:hover {
+    background-image: none;
+  }
+
+
 @media screen and (min-width: 300px) and (max-width: 650px) {
-  
+
   .articlecomando {
     width: 90%;
     margin: auto;
@@ -112,7 +121,7 @@
 }
 
 @media screen and  (min-width: 870px) and (max-width: 1000px) {
-  
+
   #container {
     background-color: rgb(0, 0, 0);
     width: 800px;
@@ -123,12 +132,12 @@
     align-items: center;
     justify-content: space-between;
   }
- 
+
 }
 
 
 @media screen and  (min-width: 1000px) {
-  
+
   #container {
     background-color: rgb(0, 0, 0);
     margin: auto;

@@ -40,8 +40,8 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   CalendarView = CalendarView;
   viewDate: Date = new Date();
   locale: string = 'pt-BR';
-  url: string = `${this.API_URL}/eventos.json`;
-  urlImage: string =  `${this.API_URL}/images`;
+  url: string = `${this.API_URL}/assets/eventos.json`;
+  urlImage: string =  `${this.API_URL}/`;
   events: CalendarEvent[] = [];
   calendarEvents: any;
   activeDayIsOpen = false;
@@ -63,7 +63,6 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
             'dd/MM/yyyy',
             new Date(),
           );
-          console.log(this.calendarEvents[i].evento.titulo);
           this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
           this.calendarEvents[i].imagem = `${this.urlImage}/${this.calendarEvents[i].evento.imagem}`;
         }
