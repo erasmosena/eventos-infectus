@@ -93,20 +93,14 @@
 
   </div>
     <ng-template #customCellTemplate let-day="day" let-locale="locale">
+      <div class="imagem-de-fundo position-relative" [style.backgroundImage]="'url(' + day.events[0]?.imagem + ')'"></div>
+      <div class="cal-cell-top position-absolute">
         <div class="cal-cell-top">
-          <div class="cal-cell-top">
-            <span class="cal-day-badge" *ngIf="day.badgeTotal > 0">{{ day.badgeTotal }}</span>
-            <span class="cal-day-number">{{ day.date | calendarDate:'monthViewDayNumber':locale }}</span>
-          </div>
-          <div class="cal-day-events">
-            <span class="cal-day-event" *ngFor="let event of day.events">
-              <img class="cal-day-icon " src="{{ event.imagem }}">
-            </span>
-          </div>
+          <span class="cal-day-badge" *ngIf="day.badgeTotal > 0">{{ day.badgeTotal }}</span>
+          <span class="cal-day-number">{{ day.date | calendarDate:'monthViewDayNumber':locale }}</span>
         </div>
-        <small style="margin: 5px">{{ day?.evento?.titulo}}</small>
+      </div>
     </ng-template>
-  <!--  <img class="card-img-top img-fluid" [src]="day.evento.imagem" alt="Imagem evento" />-->
     <ng-template #modalContent let-close="close">
       <div class="modal-header">
         <h5 class="modal-title">Event action occurred</h5>
