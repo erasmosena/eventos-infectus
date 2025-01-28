@@ -21,6 +21,8 @@ import {
 
  import Evento from "./evento.model"
 
+
+
 @Component({
   selector: 'app-calendario',
   templateUrl: './calendario.component.html',
@@ -52,12 +54,12 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
         for (let i = 0; i < this.calendarEvents.length; i++) {
 
           this.calendarEvents[i].start = parse(
-            this.calendarEvents[i].dataInicio.substring(0,5)+"/"+new Date().getFullYear(),
+            this.obterData(this.calendarEvents[i].dataInicio),
             'dd/MM/yyyy',
             new Date(),
           );
           this.calendarEvents[i].end = parse(
-            this.calendarEvents[i].dataFim.substring(0,5)+"/"+new Date().getFullYear(),
+            this.obterData(this.calendarEvents[i].dataFim),
             'dd/MM/yyyy',
             new Date(),
           );
@@ -77,7 +79,11 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
       altFormat: 'F j, Y H:i',
     });
   }
-
+  obterData(data: string) {
+    if( data ) {
+      return data.substring(0,5)+"/"+new Date().getFullYear()
+    }
+  }
   ngOnDestroy() {}
 
   dayClicked({ date, events }: { date: Date; events: CalendarEvent[] }): void {
