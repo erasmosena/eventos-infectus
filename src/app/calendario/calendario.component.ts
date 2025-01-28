@@ -83,6 +83,7 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
     if( data ) {
       return data.substring(0,5)+"/"+new Date().getFullYear()
     }
+    return ''
   }
   ngOnDestroy() {}
 
