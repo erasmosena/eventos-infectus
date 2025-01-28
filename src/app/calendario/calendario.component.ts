@@ -2,17 +2,12 @@ import {
   Component,
   OnInit,
   AfterViewInit,
-  OnDestroy,
-  ViewChild,
-  TemplateRef,
+  OnDestroy
 } from '@angular/core';
 import { environment } from '../../environments/environment';
 
 import flatpickr from 'flatpickr';
 import {
-  startOfDay,
-  addHours,
-  endOfDay,
   parse,
   isSameDay,
   isSameMonth,
@@ -21,10 +16,10 @@ import {
 import {
   CalendarEvent,
   CalendarView,
-  CalendarEventTimesChangedEvent,
 } from 'angular-calendar';
  import { HttpClient } from '@angular/common/http';
 
+ import Evento from "./evento.model"
 
 @Component({
   selector: 'app-calendario',
@@ -40,8 +35,8 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   CalendarView = CalendarView;
   viewDate: Date = new Date();
   locale: string = 'pt-BR';
-  url: string = `${this.API_URL}/assets/eventos.json`;
-  urlImage: string =  `${this.API_URL}/`;
+  url: string = `${this.API_URL}/eventos.json`;
+  urlImage: string =  `${this.API_URL}/images`;
   events: CalendarEvent[] = [];
   calendarEvents: any;
   activeDayIsOpen = false;
@@ -49,22 +44,26 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http.get(this.url).subscribe((res) => {
+    console.log(this.url);
+    console.log(new Date().getFullYear());
+    this.http.get<Evento[]>(this.url).subscribe((res) => {
       this.calendarEvents = res;
       if (this.calendarEvents !== undefined) {
         for (let i = 0; i < this.calendarEvents.length; i++) {
+
           this.calendarEvents[i].start = parse(
-            this.calendarEvents[i].data,
+            this.calendarEvents[i].dataInicio.substring(0,5)+"/"+new Date().getFullYear(),
             'dd/MM/yyyy',
             new Date(),
           );
           this.calendarEvents[i].end = parse(
-            this.calendarEvents[i].data,
+            this.calendarEvents[i].dataFim.substring(0,5)+"/"+new Date().getFullYear(),
             'dd/MM/yyyy',
             new Date(),
           );
           this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
-          this.calendarEvents[i].imagem = `${this.urlImage}/${this.calendarEvents[i].evento.imagem}`;
+          this.calendarEvents[i].imagem = `${this.urlImage}${this.calendarEvents[i].evento.imagem}`;
+          console.log(this.calendarEvents[i].imagem);
         }
         this.events = this.calendarEvents;
       }
