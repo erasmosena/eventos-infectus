@@ -46,8 +46,6 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    console.log(this.url);
-    console.log(new Date().getFullYear());
     this.http.get<Evento[]>(this.url).subscribe((res) => {
       this.calendarEvents = res;
       if (this.calendarEvents !== undefined) {
@@ -65,7 +63,6 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
           );
           this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
           this.calendarEvents[i].imagem = `${this.urlImage}${this.calendarEvents[i].evento.imagem}`;
-          console.log(this.calendarEvents[i].imagem);
         }
         this.events = this.calendarEvents;
       }
