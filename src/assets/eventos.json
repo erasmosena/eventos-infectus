@@ -657,5 +657,32 @@
       "descricao": "Cabedelo - PB",
       "imagem": "/evento.png"
     }
+  },
+  {
+    "dataInicio": "10/07/2025",
+    "dataFim": "13/07/2025",
+    "evento": {
+      "titulo": "Motochico",
+      "descricao": "Petrolina - PE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "15/03/2025",
+    "dataFim": "16/03/2025",
+    "evento": {
+      "titulo": "Poço verde Motofest",
+      "descricao": "Poço Verde - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "01/05/2025",
+    "dataFim": "03/05/2025",
+    "evento": {
+      "titulo": "Paulo Afonso Motofest",
+      "descricao": "Paulo Afonso - BA",
+      "imagem": "/evento.png"
+    }
   }
 ]
