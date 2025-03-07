@@ -1,6 +1,15 @@
 
 [
   {
+    "dataInicio": "30/03/2025",
+    "dataFim": "30/03/2025",
+    "evento": {
+      "titulo": "Aniversário Felipe ",
+      "descricao": "Felipe",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
     "dataInicio": "01/03/2025",
     "dataFim": "01/03/2025",
     "evento": {
