@@ -100,15 +100,6 @@
     }
   },
   {
-    "dataInicio": "29/09/2025",
-    "dataFim": "29/09/2025",
-    "evento": {
-      "titulo": "Aniversário Rasta",
-      "descricao": "Rasta",
-      "imagem": "/aniversario.png"
-    }
-  },
-  {
     "dataInicio": "05/07/2025",
     "dataFim": "05/07/2025",
     "evento": {
@@ -706,6 +697,33 @@
     "evento": {
       "titulo": "Aracaju Motofest",
       "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "13/09/2025",
+    "dataFim": "14/09/2025",
+    "evento": {
+      "titulo": "8º Aniversário Seven MC",
+      "descricao": "Arapiraca - AL",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "25/09/2025",
+    "dataFim": "28/09/2025",
+    "evento": {
+      "titulo": "Caruaru MotoFest ",
+      "descricao": "Caruaru - PE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "19/09/2025",
+    "dataFim": "20/09/2025",
+    "evento": {
+      "titulo": "Toritama MotoFest ",
+      "descricao": "Toritama - PE",
       "imagem": "/evento.png"
     }
   }
