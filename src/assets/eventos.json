@@ -726,6 +726,24 @@
       "descricao": "Toritama - PE",
       "imagem": "/evento.png"
     }
+  },
+   {
+    "dataInicio": "18/10/2025",
+    "dataFim": "19/10/2025",
+    "evento": {
+      "titulo": "Itabaianinha Bate e Fica ",
+      "descricao": "Itabaianinha - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "07/11/2025",
+    "dataFim": "09/11/2025",
+    "evento": {
+      "titulo": "Itabaia Moto Fest ",
+      "descricao": "Itabaia - SE",
+      "imagem": "/evento.png"
+    }
   }
 
 ]
