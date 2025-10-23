@@ -300,6 +300,15 @@
       "imagem": "/aniversario.png"
     }
   },
+  {
+    "dataInicio": "23/10/2025",
+    "dataFim": "23/10/2025",
+    "evento": {
+      "titulo": "Aniversário Coyote",
+      "descricao": "Coyote",
+      "imagem": "/aniversario.png"
+    }
+  },
 
 
 
