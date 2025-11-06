@@ -1,59 +1,57 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
+// Imports da nova estrutura
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './core/components/header/header.component';
+import { FooterComponent } from './core/components/footer/footer.component';
+import { MenuComponent } from './core/components/menu/menu.component';
+import { HomeComponent } from './features/home/home.component';
+import { OrigemComponent } from './features/clube/origem/origem.component';
+import { DiretoriaComponent } from './features/clube/diretoria/diretoria.component';
+import { MembrosComponent } from './features/membros/membros.component';
+import { CalendarioComponent } from './features/calendario/calendario.component';
+import { GaleriaComponent } from './features/galeria/galeria.component';
+import { NotFoundComponent } from './core/pages/not-found/not-found.component';
+import { AcessoNegadoComponent } from './core/pages/acesso-negado/acesso-negado.component';
+
+// Imports de libs externas
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
-
-import { LOCALE_ID } from '@angular/core';
-import { registerLocaleData } from '@angular/common';
-import localePt from '@angular/common/locales/pt';
-
-registerLocaleData(localePt);
-
-import { AppComponent } from './app.component';
-import {AboutComponent} from "./about/about.component";
-import {AppRoutingModule} from "./app-routing.module";
-import {DiretoriaComponent} from "./diretoria/diretoria.component";
-import {GaleriaComponent} from "./galeria/galeria.component";
-import {HomeComponent} from "./home/home.component";
-import {MembrosComponent} from "./membros/membros.component";
-import {NotFoundComponent} from "./not-found/not-found.component";
-import {OrigemComponent} from "./origem/origem.component";
-import {MenuComponent} from "./layout/menu/menu.component";
-import {HeaderComponent} from "./layout/header/header.component";
-import {FooterComponent} from "./layout/footer/footer.component";
-import {MotorcycleClubComponent} from "./layout/motorcycle-club/motorcycle-club.component";
-import {CalendarioComponent} from "./calendario/calendario.component";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    CalendarioComponent,
-    DiretoriaComponent,
-    GaleriaComponent,
-    HomeComponent,
-    MembrosComponent,
-    NotFoundComponent,
-    OrigemComponent,
-    MenuComponent,
     HeaderComponent,
     FooterComponent,
-    MotorcycleClubComponent
+    HomeComponent,
+    OrigemComponent,
+    DiretoriaComponent,
+    MembrosComponent,
+    CalendarioComponent,
+    GaleriaComponent,
+    NotFoundComponent,
+    AcessoNegadoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    CommonModule,
+    FormsModule,
     BrowserAnimationsModule,
     CalendarModule.forRoot({
       provide: DateAdapter,
-      useFactory: adapterFactory,
-    }),
-    AppRoutingModule,
-    HttpClientModule
+      useFactory: adapterFactory
+    })
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'pt-BR' }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
