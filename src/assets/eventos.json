@@ -100,15 +100,6 @@
     }
   },
   {
-    "dataInicio": "29/09/2025",
-    "dataFim": "29/09/2025",
-    "evento": {
-      "titulo": "Aniversário Rasta",
-      "descricao": "Rasta",
-      "imagem": "/aniversario.png"
-    }
-  },
-  {
     "dataInicio": "05/07/2025",
     "dataFim": "05/07/2025",
     "evento": {
@@ -306,6 +297,15 @@
     "evento": {
       "titulo": "Aniversário Medeiros",
       "descricao": "Medeiros",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "23/10/2025",
+    "dataFim": "23/10/2025",
+    "evento": {
+      "titulo": "Aniversário Coyote",
+      "descricao": "Coyote",
       "imagem": "/aniversario.png"
     }
   },
@@ -688,6 +688,69 @@
     "evento": {
       "titulo": "Paulo Afonso Motofest",
       "descricao": "Paulo Afonso - BA",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "21/03/2025",
+    "dataFim": "23/03/2025",
+    "evento": {
+      "titulo": "Penedo Motofest",
+      "descricao": "Penedo - AL",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "30/10/2025",
+    "dataFim": "01/11/2025",
+    "evento": {
+      "titulo": "Aracaju Motofest",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "13/09/2025",
+    "dataFim": "14/09/2025",
+    "evento": {
+      "titulo": "8º Aniversário Seven MC",
+      "descricao": "Arapiraca - AL",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "25/09/2025",
+    "dataFim": "28/09/2025",
+    "evento": {
+      "titulo": "Caruaru MotoFest ",
+      "descricao": "Caruaru - PE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "19/09/2025",
+    "dataFim": "20/09/2025",
+    "evento": {
+      "titulo": "Toritama MotoFest ",
+      "descricao": "Toritama - PE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "18/10/2025",
+    "dataFim": "19/10/2025",
+    "evento": {
+      "titulo": "Itabaianinha Bate e Fica ",
+      "descricao": "Itabaianinha - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "07/11/2025",
+    "dataFim": "09/11/2025",
+    "evento": {
+      "titulo": "Itabaiana Moto Fest ",
+      "descricao": "Itabaiana - SE",
       "imagem": "/evento.png"
     }
   }

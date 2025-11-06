@@ -1,76 +1,103 @@
+/* Importação de estilos de libs externas */
 @import "../node_modules/angular-calendar/css/angular-calendar.css";
 
-
-body {
-    background-color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
+/* Definição da fonte customizada */
+@font-face {
+  font-family: 'ArmyRust';
+  src: url('assets/fonts/ARMY RUST.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* 
+  Paleta de cores e fontes base do site (Monocromática).
+*/
+:root {
+  --cor-fundo-principal: #111111;      /* Quase preto para o fundo */
+  --cor-fundo-secundario: #222222;   /* Cinza escuro para elementos secundários */
+  --cor-texto-principal: #f5f5f5;      /* Branco suave para texto */
+  --cor-texto-secundario: #999999;    /* Cinza para textos de menor importância */
+  --cor-destaque: #ffffff;             /* Branco puro para títulos e destaques */
+  --cor-destaque-hover: #cccccc;       /* Cinza claro para hover */
+
+  --fonte-titulo: 'ArmyRust', sans-serif;
+  --fonte-corpo: 'Roboto', sans-serif;
+}
+
+/* Estilos globais do corpo da página */
+body {
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-principal);
+  font-family: var(--fonte-corpo);
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilização da barra de rolagem para combinar com o tema */
 body::-webkit-scrollbar {
-    width: 12px;
-  }
+  width: 12px;
+}
 
-  body::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);
-  }
+body::-webkit-scrollbar-track {
+  background: var(--cor-fundo-principal);
+}
 
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    border: 3px solid rgb(111, 111, 111);
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-fundo-secundario);
+  border-radius: 20px;
+  border: 3px solid var(--cor-fundo-principal);
+}
 
-  #mainArticle {
-    width: 100%;
-    margin-top: 70px;
-    background-color: black;
-  }
+/* Estilos para Títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-destaque);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1.5px;
+}
 
-  #mainArticle h2 {
-    color: white;
-    margin-top: 30px;
-    text-align: center;
-    text-shadow: 3px 3px 5px black;
-  }
+/* Estilos para links */
+a {
+  color: var(--cor-texto-principal);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-  #mainArticle p {
-    width: 80%;
-    margin: auto;
-    color: white;
-    padding: 5px 20px 20px 20px;
-    line-height: 1.8em;
-    text-indent: 15px;
-    text-align: justify;
-  }
+a:hover {
+  color: var(--cor-destaque);
+  text-decoration: underline;
+}
 
+/* Mantendo alguns estilos específicos do layout antigo, mas adaptados */
+#mainArticle {
+  width: 100%;
+  margin-top: 70px;
+  background-color: transparent;
+}
+
+#mainArticle h2 {
+  color: var(--cor-destaque);
+  margin-top: 30px;
+  text-align: center;
+}
+
+#mainArticle p {
+  width: 80%;
+  margin: auto;
+  color: var(--cor-texto-principal);
+  padding: 5px 20px 20px 20px;
+  line-height: 1.8em;
+  text-indent: 15px;
+  text-align: justify;
+}
 
 header {
-    background-color: rgb(0, 0, 0);
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
+  background-color: rgba(17, 17, 17, 0.8); /* #111111 com transparência */
+  backdrop-filter: blur(10px);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
-
-
-h1 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: 'ARMY RUST';
-    text-align: center;
-    text-shadow: 5px 5px 8px black;
-    letter-spacing: 2px;
-    font-size: 11vw;
-    width: 100vw;
-    height: 50px;
-    padding-top: 0px;
-    margin: 0px;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-}
-

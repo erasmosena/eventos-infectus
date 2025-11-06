@@ -1,0 +1,47 @@
+<div class="calendar-container">
+  <div class="calendar-header">
+    <h2>Calendário de Eventos</h2>
+    <p>Fique por dentro de todos os nossos roles, reuniões e eventos.</p>
+  </div>
+
+  <mwl-calendar-month-view
+    *ngIf="events.length > 0"
+    [viewDate]="viewDate"
+    [events]="events"
+    [activeDayIsOpen]="activeDayIsOpen"
+    (dayClicked)="dayClicked($event.day)"
+    (eventClicked)="handleEvent('Clicked', $event.event)"
+  >
+  </mwl-calendar-month-view>
+</div>
+
+<ng-template #modalContent let-close="close">
+  <div class="event-modal-card" *ngIf="modalData">
+    <div class="modal-banner"
+         [ngStyle]="{'background-image': 'url(' + (modalData.event.meta.image || 'assets/images/evento.png') + ')'}">
+      <button type="button" class="close-button" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="modal-body-content">
+      <h3>{{ modalData.event.title }}</h3>
+
+      <div class="event-detail">
+        <strong>Data:</strong>
+        <span>{{ modalData.event.start | date:'dd/MM/yyyy' }}</span>
+      </div>
+
+      <div class="event-detail">
+        <strong>Local:</strong>
+        <a [href]="'https://www.google.com/maps?q=' + modalData.event.meta.location" target="_blank" rel="noopener noreferrer">
+          {{ modalData.event.meta.location || 'A definir' }}
+        </a>
+      </div>
+
+      <p class="event-description">
+        {{ modalData.event.meta.description || 'Sem descrição disponível.' }}
+      </p>
+    </div>
+  </div>
+</ng-template>
