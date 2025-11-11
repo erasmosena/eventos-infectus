@@ -14,33 +14,38 @@ export class DiretoriaComponent implements OnInit {
 
   diretores =[
     {
-      id: 'carrasco',
-      nome: 'Carrasco',
+      id: 'alessandro',
+      nome: 'Alessandro Góis \'Carrasco\'',
       cargo:'Presidente'
     },
     {
       id: 'clecio',
-      nome: 'Clécio',
+      nome: 'Clécio Santos',
       cargo:'Vice-Presidente'
     },
     {
       id: 'paranoia',
-      nome: 'Paranóia',
-      cargo:'Sargento de Armas - Disciplina'
+      nome: 'David \'Paranóia\'',
+      cargo:'Sargento de Armas'
+    },
+    {
+      id: 'major',
+      nome: 'Evanio Noronha\'Major Noronha\'',
+      cargo:'Diretor de Disciplina'
     },
     {
       id: 'vonne',
-      nome: 'Vonne',
+      nome: 'Vonne Marques',
       cargo:'Tesoureiro'
     },
     {
-      id: 'trindade',
-      nome: 'Trindade',
+      id: 'nathan',
+      nome: 'Nathan Andrade \'Índio\' ',
       cargo:'Diretor de Marketing'
     },
     {
       id: 'victor',
-      nome: 'Victor',
+      nome: 'Victor Nunes',
       cargo:'Diretor Social'
     },
     {
