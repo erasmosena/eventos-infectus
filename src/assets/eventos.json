@@ -753,6 +753,42 @@
       "descricao": "Itabaiana - SE",
       "imagem": "/evento.png"
     }
+  },
+   {
+    "dataInicio": "14/11/2025",
+    "dataFim": "14/11/2025",
+    "evento": {
+      "titulo": "Rock Luau ",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "22/11/2025",
+    "dataFim": "22/11/2025",
+    "evento": {
+      "titulo": "Evento Balaios MC ",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "06/12/2025",
+    "dataFim": "06/12/2025",
+    "evento": {
+      "titulo": "Evento Infectus MC",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+   {
+    "dataInicio": "13/12/2025",
+    "dataFim": "13/12/2025",
+    "evento": {
+      "titulo": "Ação das crianças  ",
+      "descricao": "Albano, Nossa Sra Socorro - SE",
+      "imagem": "/evento.png"
+    }
   }
 
 ]
