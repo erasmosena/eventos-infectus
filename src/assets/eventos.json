@@ -1,11 +1,20 @@
 
 [
   {
+    "dataInicio": "18/11/2025",
+    "dataFim": "18/11/2025",
+    "evento": {
+      "titulo": "Aniversário Minotauro ",
+      "descricao": "Minotauro",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
     "dataInicio": "30/03/2025",
     "dataFim": "30/03/2025",
     "evento": {
-      "titulo": "Aniversário Felipe ",
-      "descricao": "Felipe",
+      "titulo": "Aniversário Sete ",
+      "descricao": "Sete",
       "imagem": "/aniversario.png"
     }
   },
@@ -130,8 +139,8 @@
     "dataInicio": "10/09/2025",
     "dataFim": "10/09/2025",
     "evento": {
-      "titulo": "Aniversário Nathan",
-      "descricao": "Nathan",
+      "titulo": "Aniversário Índio",
+      "descricao": "Índio",
       "imagem": "/aniversario.png"
     }
   },
@@ -153,16 +162,7 @@
       "descricao": "Barbudo",
       "imagem": "/aniversario.png"
     }
-  },
-  {
-    "dataInicio": "30/03/2025",
-    "dataFim": "30/03/2025",
-    "evento": {
-      "titulo": "Aniversário Carcará",
-      "descricao": "Carcará",
-      "imagem": "/aniversario.png"
-    }
-  },
+  },  
   {
     "dataInicio": "09/05/2025",
     "dataFim": "09/05/2025",
@@ -196,15 +196,6 @@
     "evento": {
       "titulo": "Aniversário Major",
       "descricao": "Major",
-      "imagem": "/aniversario.png"
-    }
-  },
-  {
-    "dataInicio": "09/09/2025",
-    "dataFim": "09/09/2025",
-    "evento": {
-      "titulo": "Aniversário Júnior",
-      "descricao": "Júnior",
       "imagem": "/aniversario.png"
     }
   },
@@ -258,8 +249,8 @@
     "dataInicio": "16/01/2025",
     "dataFim": "16/01/2025",
     "evento": {
-      "titulo": "Aniversário Wanderson",
-      "descricao": "Wanderson",
+      "titulo": "Aniversário Meia Noite",
+      "descricao": "Meia Noite",
       "imagem": "/aniversario.png"
     }
   },
@@ -276,8 +267,8 @@
     "dataInicio": "25/03/2025",
     "dataFim": "25/03/2025",
     "evento": {
-      "titulo": "Aniversário Rafinha",
-      "descricao": "Rafinha",
+      "titulo": "Aniversário Tarja Preta",
+      "descricao": "Tarja Preta",
       "imagem": "/aniversario.png"
     }
   }
