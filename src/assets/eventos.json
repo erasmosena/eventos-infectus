@@ -789,6 +789,428 @@
       "descricao": "Albano, Nossa Sra Socorro - SE",
       "imagem": "/evento.png"
     }
+  },
+
+  
+  {
+    "dataInicio": "18/11/2026",
+    "dataFim": "18/11/2026",
+    "evento": {
+      "titulo": "Aniversário Trindade",
+      "descricao": "Trindade",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "18/11/2026",
+    "dataFim": "18/11/2026",
+    "evento": {
+      "titulo": "Aniversário Minotauro",
+      "descricao": "Minotauro",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/03/2026",
+    "dataFim": "30/03/2026",
+    "evento": {
+      "titulo": "Aniversário Sete ",
+      "descricao": "Sete",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/03/2026",
+    "dataFim": "01/03/2026",
+    "evento": {
+      "titulo": "Aniversário Ernandes",
+      "descricao": "Ernandes",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "25/07/2026",
+    "dataFim": "25/07/2026",
+    "evento": {
+      "titulo": "Aniversário Machado",
+      "descricao": "Machado",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "12/02/2026",
+    "dataFim": "12/02/2026",
+    "evento": {
+      "titulo": "Aniversário Diesel",
+      "descricao": "Diesel",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/03/2026",
+    "dataFim": "27/03/2026",
+    "evento": {
+      "titulo": "Aniversário Coruja",
+      "descricao": "Coruja",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "02/10/2026",
+    "dataFim": "02/10/2026",
+    "evento": {
+      "titulo": "Aniversário Calabal",
+      "descricao": "Calabal",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "18/07/2026",
+    "dataFim": "18/07/2026",
+    "evento": {
+      "titulo": "Aniversário Carrasco",
+      "descricao": "Carrasco",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/03/2026",
+    "dataFim": "06/03/2026",
+    "evento": {
+      "titulo": "Aniversário Hacker",
+      "descricao": "Hacker",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/09/2026",
+    "dataFim": "06/09/2026",
+    "evento": {
+      "titulo": "Aniversário Oliver",
+      "descricao": "Oliver",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "10/11/2026",
+    "dataFim": "10/11/2026",
+    "evento": {
+      "titulo": "Aniversário Victor",
+      "descricao": "Victor",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "13/05/2026",
+    "dataFim": "13/05/2026",
+    "evento": {
+      "titulo": "Aniversário Cobra",
+      "descricao": "Cobra",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "05/07/2026",
+    "dataFim": "05/07/2026",
+    "evento": {
+      "titulo": "Aniversário Clécio",
+      "descricao": "Clécio",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/07/2026",
+    "dataFim": "06/07/2026",
+    "evento": {
+      "titulo": "Aniversário Jason",
+      "descricao": "Jason",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "29/07/2026",
+    "dataFim": "29/07/2026",
+    "evento": {
+      "titulo": "Aniversário Peste",
+      "descricao": "Peste",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "10/09/2026",
+    "dataFim": "10/09/2026",
+    "evento": {
+      "titulo": "Aniversário Índio",
+      "descricao": "Índio",
+      "imagem": "/aniversario.png"
+    }
+  },
+
+  {
+    "dataInicio": "28/01/2026",
+    "dataFim": "28/01/2026",
+    "evento": {
+      "titulo": "Aniversário Gabiru",
+      "descricao": "Gabiru",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/09/2026",
+    "dataFim": "27/09/2026",
+    "evento": {
+      "titulo": "Aniversário Barbudo",
+      "descricao": "Barbudo",
+      "imagem": "/aniversario.png"
+    }
+  },  
+  {
+    "dataInicio": "09/05/2026",
+    "dataFim": "09/05/2026",
+    "evento": {
+      "titulo": "Aniversário Acioli",
+      "descricao": "Acioli",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/01/2026",
+    "dataFim": "06/01/2026",
+    "evento": {
+      "titulo": "Aniversário Paranóia",
+      "descricao": "Paranóia",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "04/06/2026",
+    "dataFim": "04/06/2026",
+    "evento": {
+      "titulo": "Aniversário Marujo",
+      "descricao": "Marujo",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "11/09/2026",
+    "dataFim": "11/09/2026",
+    "evento": {
+      "titulo": "Aniversário Major",
+      "descricao": "Major",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/09/2026",
+    "dataFim": "01/09/2026",
+    "evento": {
+      "titulo": "Aniversário Urso",
+      "descricao": "Urso",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/09/2026",
+    "dataFim": "30/09/2026",
+    "evento": {
+      "titulo": "Aniversário Moisés",
+      "descricao": "Moisés",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/10/2026",
+    "dataFim": "01/10/2026",
+    "evento": {
+      "titulo": "Aniversário Vonne",
+      "descricao": "Vonne",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/12/2026",
+    "dataFim": "30/12/2026",
+    "evento": {
+      "titulo": "Aniversário Corrosivo",
+      "descricao": "Corrosivo",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "24/08/2026",
+    "dataFim": "24/08/2026",
+    "evento": {
+      "titulo": "Aniversário Guerra",
+      "descricao": "Guerra",
+      "imagem": "/aniversario.png"
+    }
+  },
+
+  {
+    "dataInicio": "16/01/2026",
+    "dataFim": "16/01/2026",
+    "evento": {
+      "titulo": "Aniversário Meia Noite",
+      "descricao": "Meia Noite",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "17/04/2026",
+    "dataFim": "17/04/2026",
+    "evento": {
+      "titulo": "Aniversário Léo Bong",
+      "descricao": "Léo Bong",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "25/03/2026",
+    "dataFim": "25/03/2026",
+    "evento": {
+      "titulo": "Aniversário Tarja Preta",
+      "descricao": "Tarja Preta",
+      "imagem": "/aniversario.png"
+    }
+  }
+  ,
+  {
+    "dataInicio": "05/03/2026",
+    "dataFim": "05/03/2026",
+    "evento": {
+      "titulo": "Aniversário Vírus",
+      "descricao": "Vírus",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/02/2026",
+    "dataFim": "27/02/2026",
+    "evento": {
+      "titulo": "Aniversário Medeiros",
+      "descricao": "Medeiros",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "23/10/2026",
+    "dataFim": "23/10/2026",
+    "evento": {
+      "titulo": "Aniversário Coyote",
+      "descricao": "Coyote",
+      "imagem": "/aniversario.png"
+    }
+  },
+  
+
+  
+  {
+    "dataInicio": "12/01/2026",
+    "dataFim": "12/01/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de janeiro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/02/2026",
+    "dataFim": "09/02/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de fevereiro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/03/2026",
+    "dataFim": "09/03/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de março.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "13/04/2026",
+    "dataFim": "13/04/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de abril.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "11/05/2026",
+    "dataFim": "11/05/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de maio.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "08/06/2026",
+    "dataFim": "08/06/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de junho.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "13/07/2026",
+    "dataFim": "13/07/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de julho.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "10/08/2026",
+    "dataFim": "10/08/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de agosto.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "14/09/2026",
+    "dataFim": "14/09/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de setembro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "12/10/2026",
+    "dataFim": "12/10/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de outubro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/11/2026",
+    "dataFim": "09/11/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de novembro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "14/12/2026",
+    "dataFim": "14/12/2026",
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de dezembro.",
+      "imagem": "/caveira2.png"
+    }
   }
 
 ]
