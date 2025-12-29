@@ -1211,6 +1211,15 @@
       "descricao": "Assembléia Geral do mês de dezembro.",
       "imagem": "/caveira2.png"
     }
+  },
+   {
+    "dataInicio": "14/03/2026",
+    "dataFim": "15/03/2026",
+    "evento": {
+      "titulo": "Reunião Trimestral",
+      "descricao": "1º Reunião Trimestral - Maceió",
+      "imagem": "/caveira2.png"
+    }
   }
 
 ]
