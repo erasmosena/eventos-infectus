@@ -132,6 +132,15 @@
     }
   },
   {
+    "dataInicio": "29/09/2025",
+    "dataFim": "29/09/2025",
+    "evento": {
+      "titulo": "Aniversário Rasta",
+      "descricao": "Rasta",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
     "dataInicio": "05/07/2025",
     "dataFim": "05/07/2025",
     "ativo": false,
