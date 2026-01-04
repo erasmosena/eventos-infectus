@@ -50,19 +50,20 @@ export class CalendarioComponent implements OnInit, AfterViewInit, OnDestroy {
       this.calendarEvents = res;
       if (this.calendarEvents !== undefined) {
         for (let i = 0; i < this.calendarEvents.length; i++) {
-
-          this.calendarEvents[i].start = parse(
-            this.obterData(this.calendarEvents[i].dataInicio),
-            'dd/MM/yyyy',
-            new Date(),
-          );
-          this.calendarEvents[i].end = parse(
-            this.obterData(this.calendarEvents[i].dataFim),
-            'dd/MM/yyyy',
-            new Date(),
-          );
-          this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
-          this.calendarEvents[i].imagem = `${this.urlImage}${this.calendarEvents[i].evento.imagem}`;
+          if( this.calendarEvents[i].ativo ) {
+            this.calendarEvents[i].start = parse(
+              this.obterData(this.calendarEvents[i].dataInicio),
+              'dd/MM/yyyy',
+              new Date(),
+            );
+            this.calendarEvents[i].end = parse(
+              this.obterData(this.calendarEvents[i].dataFim),
+              'dd/MM/yyyy',
+              new Date(),
+            );
+            this.calendarEvents[i].title = this.calendarEvents[i].evento.titulo;
+            this.calendarEvents[i].imagem = `${this.urlImage}${this.calendarEvents[i].evento.imagem}`;
+          }
         }
         this.events = this.calendarEvents;
       }
