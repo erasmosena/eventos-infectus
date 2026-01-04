@@ -1,17 +1,40 @@
 
 [
+
+  {
+    "dataInicio": "18/11/2025",
+    "dataFim": "18/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Aniversário Trindade",
+      "descricao": "Trindade",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "18/11/2025",
+    "dataFim": "18/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Aniversário Minotauro",
+      "descricao": "Minotauro",
+      "imagem": "/aniversario.png"
+    }
+  },
   {
     "dataInicio": "30/03/2025",
     "dataFim": "30/03/2025",
+    "ativo": false,
     "evento": {
-      "titulo": "Aniversário Felipe ",
-      "descricao": "Felipe",
+      "titulo": "Aniversário Sete ",
+      "descricao": "Sete",
       "imagem": "/aniversario.png"
     }
   },
   {
     "dataInicio": "01/03/2025",
     "dataFim": "01/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Ernandes",
       "descricao": "Ernandes",
@@ -21,6 +44,7 @@
   {
     "dataInicio": "25/07/2025",
     "dataFim": "25/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Machado",
       "descricao": "Machado",
@@ -30,6 +54,7 @@
   {
     "dataInicio": "12/02/2025",
     "dataFim": "12/02/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Diesel",
       "descricao": "Diesel",
@@ -39,6 +64,7 @@
   {
     "dataInicio": "27/03/2025",
     "dataFim": "27/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Coruja",
       "descricao": "Coruja",
@@ -48,6 +74,7 @@
   {
     "dataInicio": "02/10/2025",
     "dataFim": "02/10/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Calabal",
       "descricao": "Calabal",
@@ -57,6 +84,7 @@
   {
     "dataInicio": "18/07/2025",
     "dataFim": "18/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Carrasco",
       "descricao": "Carrasco",
@@ -66,6 +94,7 @@
   {
     "dataInicio": "06/03/2025",
     "dataFim": "06/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Hacker",
       "descricao": "Hacker",
@@ -75,6 +104,7 @@
   {
     "dataInicio": "06/09/2025",
     "dataFim": "06/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Oliver",
       "descricao": "Oliver",
@@ -84,6 +114,7 @@
   {
     "dataInicio": "10/11/2025",
     "dataFim": "10/11/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Victor",
       "descricao": "Victor",
@@ -93,6 +124,7 @@
   {
     "dataInicio": "13/05/2025",
     "dataFim": "13/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Cobra",
       "descricao": "Cobra",
@@ -111,6 +143,7 @@
   {
     "dataInicio": "05/07/2025",
     "dataFim": "05/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Clécio",
       "descricao": "Clécio",
@@ -120,6 +153,7 @@
   {
     "dataInicio": "06/07/2025",
     "dataFim": "06/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Jason",
       "descricao": "Jason",
@@ -129,6 +163,7 @@
   {
     "dataInicio": "29/07/2025",
     "dataFim": "29/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Peste",
       "descricao": "Peste",
@@ -138,16 +173,17 @@
   {
     "dataInicio": "10/09/2025",
     "dataFim": "10/09/2025",
+    "ativo": false,
     "evento": {
-      "titulo": "Aniversário Nathan",
-      "descricao": "Nathan",
+      "titulo": "Aniversário Índio",
+      "descricao": "Índio",
       "imagem": "/aniversario.png"
     }
   },
-
   {
     "dataInicio": "28/01/2025",
     "dataFim": "28/01/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Gabiru",
       "descricao": "Gabiru",
@@ -157,6 +193,7 @@
   {
     "dataInicio": "27/09/2025",
     "dataFim": "27/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Barbudo",
       "descricao": "Barbudo",
@@ -164,17 +201,9 @@
     }
   },
   {
-    "dataInicio": "30/03/2025",
-    "dataFim": "30/03/2025",
-    "evento": {
-      "titulo": "Aniversário Carcará",
-      "descricao": "Carcará",
-      "imagem": "/aniversario.png"
-    }
-  },
-  {
     "dataInicio": "09/05/2025",
     "dataFim": "09/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Acioli",
       "descricao": "Acioli",
@@ -184,6 +213,7 @@
   {
     "dataInicio": "06/01/2025",
     "dataFim": "06/01/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Paranóia",
       "descricao": "Paranóia",
@@ -193,6 +223,7 @@
   {
     "dataInicio": "04/06/2025",
     "dataFim": "04/06/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Marujo",
       "descricao": "Marujo",
@@ -202,6 +233,7 @@
   {
     "dataInicio": "11/09/2025",
     "dataFim": "11/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Major",
       "descricao": "Major",
@@ -209,17 +241,9 @@
     }
   },
   {
-    "dataInicio": "09/09/2025",
-    "dataFim": "09/09/2025",
-    "evento": {
-      "titulo": "Aniversário Júnior",
-      "descricao": "Júnior",
-      "imagem": "/aniversario.png"
-    }
-  },
-  {
     "dataInicio": "01/09/2025",
     "dataFim": "01/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Urso",
       "descricao": "Urso",
@@ -229,6 +253,7 @@
   {
     "dataInicio": "30/09/2025",
     "dataFim": "30/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Moisés",
       "descricao": "Moisés",
@@ -238,6 +263,7 @@
   {
     "dataInicio": "01/10/2025",
     "dataFim": "01/10/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Vonne",
       "descricao": "Vonne",
@@ -247,6 +273,7 @@
   {
     "dataInicio": "30/12/2025",
     "dataFim": "30/12/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Corrosivo",
       "descricao": "Corrosivo",
@@ -256,25 +283,27 @@
   {
     "dataInicio": "24/08/2025",
     "dataFim": "24/08/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Guerra",
       "descricao": "Guerra",
       "imagem": "/aniversario.png"
     }
   },
-
   {
     "dataInicio": "16/01/2025",
     "dataFim": "16/01/2025",
+    "ativo": false,
     "evento": {
-      "titulo": "Aniversário Wanderson",
-      "descricao": "Wanderson",
+      "titulo": "Aniversário Meia Noite",
+      "descricao": "Meia Noite",
       "imagem": "/aniversario.png"
     }
   },
   {
     "dataInicio": "17/04/2025",
     "dataFim": "17/04/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Léo Bong",
       "descricao": "Léo Bong",
@@ -284,16 +313,17 @@
   {
     "dataInicio": "25/03/2025",
     "dataFim": "25/03/2025",
+    "ativo": false,
     "evento": {
-      "titulo": "Aniversário Rafinha",
-      "descricao": "Rafinha",
+      "titulo": "Aniversário Tarja Preta",
+      "descricao": "Tarja Preta",
       "imagem": "/aniversario.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "05/03/2025",
     "dataFim": "05/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Vírus",
       "descricao": "Vírus",
@@ -303,78 +333,87 @@
   {
     "dataInicio": "27/02/2025",
     "dataFim": "27/02/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Aniversário Medeiros",
       "descricao": "Medeiros",
       "imagem": "/aniversario.png"
     }
   },
-
-
-
+  {
+    "dataInicio": "23/10/2025",
+    "dataFim": "23/10/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Aniversário Coyote",
+      "descricao": "Coyote",
+      "imagem": "/aniversario.png"
+    }
+  },
   {
     "dataInicio": "10/02/2025",
     "dataFim": "10/02/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de março.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "10/03/2025",
     "dataFim": "10/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de março.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "14/04/2025",
     "dataFim": "14/04/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de abril.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "12/05/2025",
     "dataFim": "12/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de maio.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "09/06/2025",
     "dataFim": "09/06/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de junho.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "14/07/2025",
     "dataFim": "14/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de julho.",
       "imagem": "/caveira2.png"
     }
-  }
-  ,
+  },
   {
     "dataInicio": "11/08/2025",
     "dataFim": "11/08/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de agosto.",
@@ -384,6 +423,7 @@
   {
     "dataInicio": "08/09/2025",
     "dataFim": "08/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de setembro.",
@@ -393,6 +433,7 @@
   {
     "dataInicio": "13/10/2025",
     "dataFim": "13/10/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de outubro.",
@@ -402,6 +443,7 @@
   {
     "dataInicio": "10/11/2025",
     "dataFim": "10/11/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de novembro.",
@@ -411,244 +453,267 @@
   {
     "dataInicio": "08/12/2025",
     "dataFim": "08/12/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Reunião Geral",
       "descricao": "Assembléia Geral do mês de dezembro.",
       "imagem": "/caveira2.png"
     }
   },
-
-
-
-
   {
     "dataInicio": "03/01/2025",
     "dataFim": "03/01/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "17/01/2025",
     "dataFim": "17/01/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "31/01/2025",
     "dataFim": "31/01/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "14/02/2025",
     "dataFim": "14/02/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "28/02/2025",
     "dataFim": "28/02/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "14/03/2025",
     "dataFim": "14/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "28/03/2025",
     "dataFim": "28/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "11/04/2025",
     "dataFim": "11/04/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "25/04/2025",
     "dataFim": "25/04/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "09/05/2025",
     "dataFim": "09/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "23/05/2025",
     "dataFim": "23/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "06/06/2025",
     "dataFim": "06/06/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "20/06/2025",
     "dataFim": "20/06/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "04/07/2025",
     "dataFim": "04/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "18/07/2025",
     "dataFim": "18/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "01/08/2025",
     "dataFim": "01/08/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "15/08/2025",
     "dataFim": "15/08/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "29/08/2025",
     "dataFim": "29/08/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "12/09/2025",
     "dataFim": "12/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "26/09/2025",
     "dataFim": "26/09/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "10/10/2025",
     "dataFim": "10/10/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "24/10/2025",
     "dataFim": "24/10/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "07/11/2025",
     "dataFim": "07/11/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "21/11/2025",
     "dataFim": "21/11/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "05/12/2025",
     "dataFim": "05/12/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
       "imagem": "/caveira.png"
     }
   },
-{
+  {
     "dataInicio": "19/12/2025",
     "dataFim": "19/12/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Sexta Infectada",
       "descricao": "Um noite para encontrar os irmãos.",
@@ -658,6 +723,7 @@
   {
     "dataInicio": "11/04/2025",
     "dataFim": "13/04/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Cabedelo Motofest",
       "descricao": "Cabedelo - PB",
@@ -667,6 +733,7 @@
   {
     "dataInicio": "10/07/2025",
     "dataFim": "13/07/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Motochico",
       "descricao": "Petrolina - PE",
@@ -676,6 +743,7 @@
   {
     "dataInicio": "15/03/2025",
     "dataFim": "16/03/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Poço verde Motofest",
       "descricao": "Poço Verde - SE",
@@ -685,11 +753,853 @@
   {
     "dataInicio": "01/05/2025",
     "dataFim": "03/05/2025",
+    "ativo": false,
     "evento": {
       "titulo": "Paulo Afonso Motofest",
       "descricao": "Paulo Afonso - BA",
       "imagem": "/evento.png"
     }
-  }
+  },
+  {
+    "dataInicio": "21/03/2025",
+    "dataFim": "23/03/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Penedo Motofest",
+      "descricao": "Penedo - AL",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "30/10/2025",
+    "dataFim": "01/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Aracaju Motofest",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "13/09/2025",
+    "dataFim": "14/09/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "8º Aniversário Seven MC",
+      "descricao": "Arapiraca - AL",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "25/09/2025",
+    "dataFim": "28/09/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Caruaru MotoFest ",
+      "descricao": "Caruaru - PE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "19/09/2025",
+    "dataFim": "20/09/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Toritama MotoFest ",
+      "descricao": "Toritama - PE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "18/10/2025",
+    "dataFim": "19/10/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Itabaianinha Bate e Fica ",
+      "descricao": "Itabaianinha - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "07/11/2025",
+    "dataFim": "09/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Itabaiana Moto Fest ",
+      "descricao": "Itabaiana - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "14/11/2025",
+    "dataFim": "14/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Rock Luau ",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "22/11/2025",
+    "dataFim": "22/11/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Evento Balaios MC ",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "06/12/2025",
+    "dataFim": "06/12/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Evento Infectus MC",
+      "descricao": "Aracaju - SE",
+      "imagem": "/evento.png"
+    }
+  },
+  {
+    "dataInicio": "13/12/2025",
+    "dataFim": "13/12/2025",
+    "ativo": false,
+    "evento": {
+      "titulo": "Ação das crianças  ",
+      "descricao": "Albano, Nossa Sra Socorro - SE",
+      "imagem": "/evento.png"
+    }
+  },
 
+
+  {
+    "dataInicio": "18/11/2026",
+    "dataFim": "18/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Trindade",
+      "descricao": "Trindade",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "18/11/2026",
+    "dataFim": "18/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Minotauro",
+      "descricao": "Minotauro",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/03/2026",
+    "dataFim": "30/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Sete ",
+      "descricao": "Sete",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/03/2026",
+    "dataFim": "01/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Ernandes",
+      "descricao": "Ernandes",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "25/07/2026",
+    "dataFim": "25/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Machado",
+      "descricao": "Machado",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "12/02/2026",
+    "dataFim": "12/02/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Diesel",
+      "descricao": "Diesel",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/03/2026",
+    "dataFim": "27/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Coruja",
+      "descricao": "Coruja",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "02/10/2026",
+    "dataFim": "02/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Calabal",
+      "descricao": "Calabal",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "18/07/2026",
+    "dataFim": "18/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Carrasco",
+      "descricao": "Carrasco",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/03/2026",
+    "dataFim": "06/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Hacker",
+      "descricao": "Hacker",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/09/2026",
+    "dataFim": "06/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Oliver",
+      "descricao": "Oliver",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "10/11/2026",
+    "dataFim": "10/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Victor",
+      "descricao": "Victor",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "13/05/2026",
+    "dataFim": "13/05/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Cobra",
+      "descricao": "Cobra",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "05/07/2026",
+    "dataFim": "05/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Clécio",
+      "descricao": "Clécio",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/07/2026",
+    "dataFim": "06/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Jason",
+      "descricao": "Jason",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "29/07/2026",
+    "dataFim": "29/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Peste",
+      "descricao": "Peste",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "10/09/2026",
+    "dataFim": "10/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Índio",
+      "descricao": "Índio",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "28/01/2026",
+    "dataFim": "28/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Gabiru",
+      "descricao": "Gabiru",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/09/2026",
+    "dataFim": "27/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Barbudo",
+      "descricao": "Barbudo",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "09/05/2026",
+    "dataFim": "09/05/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Acioli",
+      "descricao": "Acioli",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "06/01/2026",
+    "dataFim": "06/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Paranóia",
+      "descricao": "Paranóia",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "04/06/2026",
+    "dataFim": "04/06/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Marujo",
+      "descricao": "Marujo",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "11/09/2026",
+    "dataFim": "11/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Major",
+      "descricao": "Major",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/09/2026",
+    "dataFim": "01/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Urso",
+      "descricao": "Urso",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/09/2026",
+    "dataFim": "30/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Moisés",
+      "descricao": "Moisés",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "01/10/2026",
+    "dataFim": "01/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Vonne",
+      "descricao": "Vonne",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "30/12/2026",
+    "dataFim": "30/12/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Corrosivo",
+      "descricao": "Corrosivo",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "24/08/2026",
+    "dataFim": "24/08/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Guerra",
+      "descricao": "Guerra",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "16/01/2026",
+    "dataFim": "16/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Meia Noite",
+      "descricao": "Meia Noite",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "17/04/2026",
+    "dataFim": "17/04/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Léo Bong",
+      "descricao": "Léo Bong",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "25/03/2026",
+    "dataFim": "25/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Tarja Preta",
+      "descricao": "Tarja Preta",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "05/03/2026",
+    "dataFim": "05/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Vírus",
+      "descricao": "Vírus",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "27/02/2026",
+    "dataFim": "27/02/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Medeiros",
+      "descricao": "Medeiros",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "23/10/2026",
+    "dataFim": "23/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Aniversário Coyote",
+      "descricao": "Coyote",
+      "imagem": "/aniversario.png"
+    }
+  },
+  {
+    "dataInicio": "12/01/2026",
+    "dataFim": "12/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de janeiro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/02/2026",
+    "dataFim": "09/02/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de fevereiro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/03/2026",
+    "dataFim": "09/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de março.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "13/04/2026",
+    "dataFim": "13/04/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de abril.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "11/05/2026",
+    "dataFim": "11/05/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de maio.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "08/06/2026",
+    "dataFim": "08/06/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de junho.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "13/07/2026",
+    "dataFim": "13/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de julho.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "10/08/2026",
+    "dataFim": "10/08/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de agosto.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "14/09/2026",
+    "dataFim": "14/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de setembro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "12/10/2026",
+    "dataFim": "12/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de outubro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "09/11/2026",
+    "dataFim": "09/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de novembro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "14/12/2026",
+    "dataFim": "14/12/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Geral",
+      "descricao": "Assembléia Geral do mês de dezembro.",
+      "imagem": "/caveira2.png"
+    }
+  },
+  {
+    "dataInicio": "02/01/2026",
+    "dataFim": "02/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "16/01/2026",
+    "dataFim": "16/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "30/01/2026",
+    "dataFim": "30/01/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "13/02/2026",
+    "dataFim": "13/02/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "27/02/2026",
+    "dataFim": "27/02/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "13/03/2026",
+    "dataFim": "13/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "27/03/2026",
+    "dataFim": "27/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "10/04/2026",
+    "dataFim": "10/04/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "24/04/2026",
+    "dataFim": "24/04/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "08/05/2026",
+    "dataFim": "08/05/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "22/05/2026",
+    "dataFim": "22/05/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "05/06/2026",
+    "dataFim": "05/06/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "19/06/2026",
+    "dataFim": "19/06/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "03/07/2026",
+    "dataFim": "03/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "17/07/2026",
+    "dataFim": "17/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "31/07/2026",
+    "dataFim": "31/07/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "14/08/2026",
+    "dataFim": "14/08/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "28/08/2026",
+    "dataFim": "28/08/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "11/09/2026",
+    "dataFim": "11/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "25/09/2026",
+    "dataFim": "25/09/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "09/10/2026",
+    "dataFim": "09/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "23/10/2026",
+    "dataFim": "23/10/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "06/11/2026",
+    "dataFim": "06/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "20/11/2026",
+    "dataFim": "20/11/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "04/12/2026",
+    "dataFim": "04/12/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "18/12/2026",
+    "dataFim": "18/12/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Sexta Infectada",
+      "descricao": "Um noite para encontrar os irmãos.",
+      "imagem": "/caveira.png"
+    }
+  },
+  {
+    "dataInicio": "14/03/2026",
+    "dataFim": "15/03/2026",
+    "ativo": true,
+    "evento": {
+      "titulo": "Reunião Trimestral",
+      "descricao": "1º Reunião Trimestral - Maceió",
+      "imagem": "/caveira2.png"
+    }
+  }
 ]
